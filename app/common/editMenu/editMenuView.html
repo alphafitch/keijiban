@@ -1,0 +1,75 @@
+<div ng-click="toggleRight()" ng-hide="isOpenRight()">
+    <md-button class="md-fab md-primary setup-button flex-center" aria-label="Go to setup button">
+        <i class="fa fa-2x fa-pencil-square-o"></i>
+    </md-button>
+</div>
+
+<div layout="column" ng-cloak>
+    <section layout="row" flex>
+        <md-sidenav class="md-sidenav-right md-whiteframe-z2" md-component-id="right">
+
+            <md-toolbar ng-style="{ 'background-color':currentBoard.bgColour }">
+                <h1 class="md-toolbar-tools">Edit</h1>
+            </md-toolbar>
+
+            <form ng-controller="RightCtrl" layout-padding>
+                <h3 class="md-headline">Basic Info</h3>
+                <md-input-container>
+                    <label>Name</label>
+                    <input ng-model="currentBoard.name">
+                </md-input-container>
+                <md-input-container>
+                    <label>Subject</label>
+                    <input ng-model="currentBoard.subject">
+                </md-input-container>
+                <md-input-container>
+                    <label>Primary colour</label>
+                    <input ng-model="currentBoard.bgColour">
+                </md-input-container>
+
+                <h3 class="md-headline">Topic Info</h3>
+                <md-input-container>
+                    <label>Topic</label>
+                    <input ng-model="currentBoard.topic">
+                </md-input-container>
+                <md-input-container>
+                    <label>Description</label>
+                    <textarea ng-model="currentBoard.blurb" rows="4"></textarea>
+                </md-input-container>
+
+                <h3 class="md-headline">Venue Info</h3>
+                <md-input-container>
+                    <label>Location</label>
+                    <input ng-model="currentBoard.location">
+                </md-input-container>
+                <md-input-container>
+                    <label>Date</label>
+                    <input ng-model="currentBoard.date">
+                </md-input-container>
+                <md-input-container>
+                    <label>Start Time</label>
+                    <input ng-model="currentBoard.startTime">
+                </md-input-container>
+                <md-input-container>
+                    <label>End Time</label>
+                    <input ng-model="currentBoard.endTime">
+                </md-input-container>
+
+                <h3 class="md-headline">Contact Info</h3>
+                <md-input-container>
+                    <label>Contact Name</label>
+                    <input ng-model="currentBoard.owner">
+                </md-input-container>
+                <md-input-container>
+                    <label>Contact Email</label>
+                    <input ng-model="currentBoard.ownerEmail">
+                </md-input-container>
+            </form>
+
+            <div class="flex-center">
+                <md-button ng-click="close()" class="md-raised md-primary">Save</md-button>
+            </div>
+
+        </md-sidenav>
+    </section>
+</div>

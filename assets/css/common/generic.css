@@ -1,0 +1,27 @@
+/* Hide scrollbar to prevent distraction when moving between pages */
+/* Needs cross browser compatibilty */
+::-webkit-scrollbar {
+    display: none;
+}
+.center {
+    text-align: center;
+}
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+hr {
+    height: 0;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+/* Override angular material styles for sidenav */
+md-sidenav,
+md-sidenav.md-locked-open,
+md-sidenav.md-closed.md-locked-open-add-active {
+    min-width: 200px !important;
+    width: 45vw !important;
+    max-width: 45vw !important;
+}

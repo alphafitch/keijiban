@@ -1,0 +1,9 @@
+<section id="list">
+    <div layout-sm="column" layout="row" layout-wrap>
+        <div class="board-tile flex-center" ng-repeat="board in boards" ng-style="{ 'background-color':board.bgColour }" flex-sm="100" flex-gt-sm="33" ng-click="goToSelection(board)">
+            <h2 class="md-headline board-name">{{board.name}}</h2>
+            <h2 class="md-subhead board-subject">{{board.subject | stripHyphen | titleCase}}</h2>
+        </div>
+    </div>
+</section>
+<info-button></info-button>

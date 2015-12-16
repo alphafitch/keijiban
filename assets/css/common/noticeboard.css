@@ -1,0 +1,10 @@
+header, footer {
+    color: #ecf0f1;
+}
+footer a {
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: #ecf0f1;
+    color: #ecf0f1;
+    text-decoration: none;
+}

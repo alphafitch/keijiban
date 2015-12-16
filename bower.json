@@ -1,0 +1,21 @@
+{
+  "name": "Keijiban",
+  "version": "0.1",
+  "description": "A noticeboard, except it's digital",
+  "authors": [
+    "Christopher Fisher <chris@alphafitch.uk>",
+    "Mohamed Kherroubi <mkherroubi93@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.4.8",
+    "angular-material": "~0.11.4",
+    "angular-route": "~1.4.8",
+    "font-awesome": "~4.5.0"
+  },
+  "resolutions": {
+    "angular": "~1.4.8",
+    "font-awesome": "~4.5.0"
+  }
+}

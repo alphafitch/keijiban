@@ -1,0 +1,38 @@
+<header ng-style="{ 'background-color':currentBoard.bgColour }">
+    <div layout="row" layout-align="center">
+        <div class="flex" flex-sm="80" flex-gt-sm="60">
+            <h1 class="center md-display-3">{{currentBoard.name}}</h1>
+            <h3 class="center md-headline">{{currentBoard.subject}}</h3>
+        </div>
+    </div>
+</header>
+
+<div layout="row" layout-align="center">
+    <div class="flex" flex-sm="80" flex-gt-sm="60">
+        <h2 class="md-display-2">Topic of the month</h2>
+        <h3 class="md-headline">{{currentBoard.topic}}</h3>
+        <h3 class="md-headline">{{currentBoard.blurb}}</h3>
+        <hr>
+        <h2 class="md-display-2">Venue of the month</h2>
+        <h3 class="md-headline">This month's club will take place on {{currentBoard.date}} in {{currentBoard.location}}.</h3>
+        <h3 class="md-headline">It will run from {{currentBoard.startTime}} until {{currentBoard.endTime}}.</h3>
+        <h3 class="md-headline">We hope to see you there!</h3>
+    </div>
+</div>
+
+<footer ng-style="{ 'background-color':currentBoard.bgColour }">
+    <div layout="row" layout-align="center">
+        <div class="flex" flex-sm="80" flex-gt-sm="60">
+            <h1 class="md-display-2">Contact</h1>
+            <p class="md-headline">
+                If you would like to join or find out more about the club, please contact <a href="mailto:{{currentBoard.ownerEmail}}">{{currentBoard.owner}}</a>.
+            </p>
+            <br>
+            <br>
+        </div>
+    </div>
+</footer>
+
+<edit-menu></edit-menu>
+
+<list-button></list-button>

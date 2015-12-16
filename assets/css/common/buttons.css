@@ -1,0 +1,18 @@
+.list-button {
+    position: fixed;
+    left: 15px;
+    bottom: 15px;
+}
+.info-button {
+    position: fixed;
+    left: 15px;
+    bottom: 15px;
+}
+.setup-button {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+.list-button:hover, .info-button:hover, .setup-button:hover {
+    transform: scale(1.35);
+}

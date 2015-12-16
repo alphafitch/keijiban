@@ -1,0 +1,10 @@
+section img {
+    margin-top: 25px;
+    width: 250px;
+    height: auto;
+}
+section#information {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
