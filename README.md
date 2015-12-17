@@ -14,6 +14,11 @@ Set up your board to display a list of notices about groups, events or anything 
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request!
 
+## Authors
+
+Mohamed Kherroubi [@mkherroubi93](https://twitter.com/mkherroubi93)
+Christopher Fisher [@alphafitch](https://twitter.com/alphafitch)
+
 ## License
 
 MIT
