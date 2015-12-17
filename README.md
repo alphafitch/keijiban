@@ -4,7 +4,13 @@ A noticeboard, except it's digital.
 
 ## Usage
 
-Set up your board to display a list of notices about groups, events or anything else you want.
+Use your board to display a list of notices about groups, events or anything else you want.
+
+## Setup
+
+1. Download the latest version.
+2. Update bower components `bower install`
+3. Run on apache server.
 
 ## Contributing
 
