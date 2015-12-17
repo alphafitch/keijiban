@@ -1,12 +1,12 @@
 .list-button {
     position: fixed;
-    left: 15px;
     bottom: 15px;
+    left: 15px;
 }
 .info-button {
     position: fixed;
-    left: 15px;
     bottom: 15px;
+    left: 15px;
 }
 .setup-button {
     position: fixed;
@@ -14,5 +14,9 @@
     bottom: 15px;
 }
 .list-button:hover, .info-button:hover, .setup-button:hover {
-    transform: scale(1.35);
+    -webkit-transform: scale(1.35);
+       -moz-transform: scale(1.35);
+        -ms-transform: scale(1.35);
+         -o-transform: scale(1.35);
+            transform: scale(1.35);
 }

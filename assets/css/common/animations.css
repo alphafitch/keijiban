@@ -1,15 +1,16 @@
 .fade {
     position: absolute;
     top: 0;
-    left: 0;
     right: 0;
+    left: 0;
     height: 100%;
     opacity: 1;
 }
-.fade.ng-enter,
-.fade.ng-leave {
+.fade.ng-enter, .fade.ng-leave {
     -webkit-transition: all 1s ease;
-    transition: all 1s ease;
+       -moz-transition: all 1s ease;
+         -o-transition: all 1s ease;
+            transition: all 1s ease;
 }
 .fade.ng-enter {
     opacity: 0;
