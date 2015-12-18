@@ -35,3 +35,9 @@ md-sidenav, md-sidenav.md-locked-open, md-sidenav.md-closed.md-locked-open-add-a
     max-width: 45vw !important;
     width: 45vw !important;
 }
+md-sidenav {
+    bottom: auto;
+}
+md-backdrop {
+    position: fixed;
+}
