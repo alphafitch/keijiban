@@ -44,14 +44,11 @@ main {
     -webkit-box-orient: vertical;
        -moz-box-orient: vertical;
 }
-/* Override angular material styles for sidenav */
-md-sidenav, md-sidenav.md-locked-open, md-sidenav.md-closed.md-locked-open-add-active {
-    min-width: 200px !important;
-    max-width: 45vw !important;
-    width: 45vw !important;
-}
 md-sidenav {
     bottom: auto;
+    min-width: 250px;
+    max-width: none;
+    width: 50%;
 }
 md-backdrop {
     position: fixed;
