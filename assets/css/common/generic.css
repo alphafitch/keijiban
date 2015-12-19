@@ -29,6 +29,21 @@ hr {
     border-top: 1px solid rgba(0, 0, 0, 0.10);
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
+main {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display:    -moz-box;
+    display: -ms-flexbox;
+    display:         flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-height: 100vh;
+    -webkit-box-direction: normal;
+       -moz-box-direction: normal;
+    -webkit-box-orient: vertical;
+       -moz-box-orient: vertical;
+}
 /* Override angular material styles for sidenav */
 md-sidenav, md-sidenav.md-locked-open, md-sidenav.md-closed.md-locked-open-add-active {
     min-width: 200px !important;

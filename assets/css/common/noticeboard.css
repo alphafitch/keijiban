@@ -8,3 +8,10 @@ footer a {
     color: #ecf0f1;
     text-decoration: none;
 }
+section {
+    -webkit-box-flex: 1;
+       -moz-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
