@@ -5,7 +5,7 @@ keijibanApp.controller('appController', function($scope, $http, $location) {
     });
 
     $http.get('app/app.config.json').then(function(response) {
-        $scope.boards = response.data;
+        $scope.boards = response.data.boards;
     });
 
     // On load return to the list page becuase the app is stateful
