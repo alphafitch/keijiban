@@ -5,6 +5,7 @@ keijibanApp.controller('appController', function($scope, $http, $location) {
     });
 
     $http.get('app/app.config.json').then(function(response) {
+        $scope.info = response.data.info;
         $scope.boards = response.data.boards;
     });
 
