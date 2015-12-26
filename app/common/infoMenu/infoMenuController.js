@@ -29,30 +29,19 @@ keijibanApp.controller('infoMenuController', function($scope, $location,  $timeo
      */
     function buildDelayedToggler(navID) {
       return debounce(function() {
-        $mdSidenav(navID)
-          .toggle()
-          .then(function () {
-            $log.debug("toggle " + navID + " is done");
-          });
+        $mdSidenav(navID).toggle();
       }, 200);
     }
     function buildToggler(navID) {
       return function() {
-        $mdSidenav(navID)
-          .toggle()
-          .then(function () {
-            $log.debug("toggle " + navID + " is done");
-          });
+        $mdSidenav(navID).toggle();
       };
     }
 
     }).controller('LeftCtrl', function ($scope, $timeout, $mdSidenav, $log) {
 
     $scope.close = function () {
-      $mdSidenav('left').close()
-        .then(function () {
-          $log.debug("close LEFT is done");
-        });
+      $mdSidenav('left').close();
     };
 
 });

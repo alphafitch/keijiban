@@ -1,6 +1,5 @@
 keijibanApp.controller('editMenuController', function($scope, $location,  $timeout, $mdSidenav, $log) {
 
-
     $scope.toggleRight = buildToggler('right');
 
     $scope.isOpenRight = function(){
@@ -30,30 +29,19 @@ keijibanApp.controller('editMenuController', function($scope, $location,  $timeo
      */
     function buildDelayedToggler(navID) {
       return debounce(function() {
-        $mdSidenav(navID)
-          .toggle()
-          .then(function () {
-            $log.debug("toggle " + navID + " is done");
-          });
+        $mdSidenav(navID).toggle();
       }, 200);
     }
     function buildToggler(navID) {
       return function() {
-        $mdSidenav(navID)
-          .toggle()
-          .then(function () {
-            $log.debug("toggle " + navID + " is done");
-          });
+        $mdSidenav(navID).toggle();
       };
     }
 
     }).controller('RightCtrl', function ($scope, $timeout, $mdSidenav, $log) {
 
     $scope.close = function () {
-      $mdSidenav('right').close()
-        .then(function () {
-          $log.debug("close RIGHT is done");
-        });
+      $mdSidenav('right').close();
     };
 
 });
