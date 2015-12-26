@@ -1,4 +1,4 @@
-keijibanApp.controller('infoButtonController', function($scope, $location,  $timeout, $mdSidenav, $log) {
+keijibanApp.controller('infoMenuController', function($scope, $location,  $timeout, $mdSidenav, $log) {
 
     $scope.goToInfo = function() {
         $location.url("info");

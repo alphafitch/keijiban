@@ -1,9 +1,9 @@
 var keijibanApp = angular.module('keijiban', ['ngMaterial', 'ngRoute']);
 
-keijibanApp.directive('infoButton', function() {
+keijibanApp.directive('infoMenu', function() {
     return {
-        templateUrl: 'app/common/infoButton/infoButtonView.html',
-        controller: 'infoButtonController'
+        templateUrl: 'app/common/infoMenu/infoMenuView.html',
+        controller: 'infoMenuController'
     };
 });
 
