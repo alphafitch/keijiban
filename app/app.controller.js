@@ -8,7 +8,8 @@ keijibanApp.controller('appController', function($scope, $http, $location) {
     // Load all the required config from the master JSON file
     $http.get('app/app.config.json').then(function(response) {
         $scope.info = response.data.info;
-        $scope.boards = response.data.boards;
+        $scope.modules = response.data.boards.modules;
+        $scope.boards = response.data.boards.data;
     });
 
     // On load return to the list page becuase the app is stateful
