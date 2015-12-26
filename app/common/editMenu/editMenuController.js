@@ -10,10 +10,4 @@ keijibanApp.controller('editMenuController', function($scope, $location,  $timeo
         $mdSidenav('editMenu').close();
     };
 
-    function buildToggler(navID) {
-        return function() {
-            $mdSidenav(navID).toggle();
-        };
-    }
-
 });

@@ -1,4 +1,4 @@
-keijibanApp.controller('appController', function($scope, $http, $location) {
+keijibanApp.controller('appController', function($scope, $http, $location, $mdSidenav) {
 
     // Required for version info from the bower file
     $http.get('bower.json').then(function(response) {
@@ -15,6 +15,13 @@ keijibanApp.controller('appController', function($scope, $http, $location) {
     // On load return to the list page becuase the app is stateful
     window.onload = function() {
         $location.url("list");
+    };
+
+    // Generic function to build a toggler that opens/closes the sidenavs
+    window.buildToggler = function(navID){
+        return function() {
+            $mdSidenav(navID).toggle();
+        };
     };
 
 });
