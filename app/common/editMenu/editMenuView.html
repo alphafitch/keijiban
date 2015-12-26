@@ -30,39 +30,39 @@
                 <h3 class="md-headline">Topic Info</h3>
                 <md-input-container>
                     <label>Topic</label>
-                    <input ng-model="currentBoard.topic">
+                    <input ng-model="currentBoard.topic.blurb">
                 </md-input-container>
                 <md-input-container>
                     <label>Description</label>
-                    <textarea ng-model="currentBoard.blurb" rows="4"></textarea>
+                    <textarea ng-model="currentBoard.description.blurb" rows="4"></textarea>
                 </md-input-container>
 
                 <h3 class="md-headline">Venue Info</h3>
                 <md-input-container>
                     <label>Location</label>
-                    <input ng-model="currentBoard.location">
+                    <input ng-model="currentBoard.venue.location">
                 </md-input-container>
                 <md-input-container>
                     <label>Date</label>
-                    <input ng-model="currentBoard.date">
+                    <input ng-model="currentBoard.event.date">
                 </md-input-container>
                 <md-input-container>
                     <label>Start Time</label>
-                    <input ng-model="currentBoard.startTime">
+                    <input ng-model="currentBoard.event.startTime">
                 </md-input-container>
                 <md-input-container>
                     <label>End Time</label>
-                    <input ng-model="currentBoard.endTime">
+                    <input ng-model="currentBoard.event.endTime">
                 </md-input-container>
 
                 <h3 class="md-headline">Contact Info</h3>
                 <md-input-container>
                     <label>Contact Name</label>
-                    <input ng-model="currentBoard.owner">
+                    <input ng-model="currentBoard.owner.name">
                 </md-input-container>
                 <md-input-container>
                     <label>Contact Email</label>
-                    <input ng-model="currentBoard.ownerEmail">
+                    <input ng-model="currentBoard.owner.email">
                 </md-input-container>
             </form>
 

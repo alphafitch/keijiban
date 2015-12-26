@@ -11,16 +11,16 @@
     <div class="flex" flex-sm="80" flex-gt-sm="60">
         <span ng-if="modules.description.included">
             <h2 class="md-display-2">{{modules.description.header}}</h2>
-            <h3 class="md-headline">{{currentBoard.blurb}}</h3>
+            <h3 class="md-headline">{{currentBoard.description.blurb}}</h3>
         </span>
         <span ng-if="modules.topic.included">
             <h2 class="md-display-2">{{modules.topic.header}}</h2>
-            <h3 class="md-headline">{{currentBoard.topic}}</h3>
+            <h3 class="md-headline">{{currentBoard.topic.blurb}}</h3>
         </span>
         <span ng-if="modules.venue.included">
             <h2 class="md-display-2">{{modules.venue.header}}</h2>
-            <h3 class="md-headline">This month's club will take place on {{currentBoard.date}} in {{currentBoard.location}}.</h3>
-            <h3 class="md-headline">It will run from {{currentBoard.startTime}} until {{currentBoard.endTime}}.</h3>
+            <h3 class="md-headline">This month's club will take place on {{currentBoard.event.date}} in {{currentBoard.venue.location}}.</h3>
+            <h3 class="md-headline">It will run from {{currentBoard.event.startTime}} until {{currentBoard.event.endTime}}.</h3>
             <h3 class="md-headline">We hope to see you there!</h3>
         </span>
     </div>
@@ -31,7 +31,7 @@
         <div class="flex" flex-sm="80" flex-gt-sm="60">
             <h1 class="md-display-2">{{modules.contact.header}}</h1>
             <p class="md-headline">
-                If you would like to join or find out more about the club, please contact <a href="mailto:{{currentBoard.ownerEmail}}">{{currentBoard.owner}}</a>.
+                If you would like to join or find out more about the club, please contact <a href="mailto:{{currentBoard.owner.email}}">{{currentBoard.owner.name}}</a>.
             </p>
             <br>
             <br>
