@@ -11,8 +11,11 @@
     <div class="flex" flex-sm="80" flex-gt-sm="60">
         <span ng-if="modules.description.included">
             <h2 class="md-display-2">{{modules.description.header}}</h2>
-            <h3 class="md-headline">{{currentBoard.topic}}</h3>
             <h3 class="md-headline">{{currentBoard.blurb}}</h3>
+        </span>
+        <span ng-if="modules.topic.included">
+            <h2 class="md-display-2">{{modules.topic.header}}</h2>
+            <h3 class="md-headline">{{currentBoard.topic}}</h3>
         </span>
         <span ng-if="modules.venue.included">
             <h2 class="md-display-2">{{modules.venue.header}}</h2>

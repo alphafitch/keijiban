@@ -8,12 +8,15 @@
     "boards":{
         "modules":{
             "description":{
+                "included":true
+            },
+            "topic":{
                 "included":true,
-                "header":"Topic of the month"
+                "header":"Topic of the next event"
             },
             "venue":{
                 "included":true,
-                "header":"Venue of the month"
+                "header":"Venue of the next event"
             },
             "contact":{
                 "included":true,
