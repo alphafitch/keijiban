@@ -19,8 +19,12 @@
                     <input ng-model="currentBoard.name">
                 </md-input-container>
                 <md-input-container>
-                    <label>Subject</label>
-                    <input ng-model="currentBoard.subject">
+                    <label>Short description</label>
+                    <input ng-model="currentBoard.description.short">
+                </md-input-container>
+                <md-input-container>
+                    <label>Long description</label>
+                    <textarea ng-model="currentBoard.description.long" rows="4"></textarea>
                 </md-input-container>
                 <md-input-container>
                     <label>Primary colour</label>
@@ -31,10 +35,6 @@
                 <md-input-container>
                     <label>Topic</label>
                     <input ng-model="currentBoard.topic.blurb">
-                </md-input-container>
-                <md-input-container>
-                    <label>Description</label>
-                    <textarea ng-model="currentBoard.description.blurb" rows="4"></textarea>
                 </md-input-container>
 
                 <h3 class="md-headline">Venue Info</h3>

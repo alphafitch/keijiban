@@ -30,10 +30,10 @@
         "data":[
             {
                 "name":"Board 1 Name",
-                "subject":"Board 1 Subject",
                 "bgColour":"#1abc9c",
                 "description":{
-                    "blurb":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+                    "short":"Short description, subject info, etc",
+                    "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
                 },
                 "topic":{
                     "blurb":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
@@ -53,10 +53,10 @@
             },
             {
                 "name":"Board 2 Name",
-                "subject":"Board 2 Subject",
                 "bgColour":"#2ecc71",
                 "description":{
-                    "blurb":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+                    "short":"Short description, subject info, etc",
+                    "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
                 },
                 "topic":{
                     "blurb":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
@@ -76,10 +76,10 @@
             },
             {
                 "name":"Board 3 Name",
-                "subject":"Board 3 Subject",
                 "bgColour":"#3498db",
                 "description":{
-                    "blurb":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+                    "short":"Short description, subject info, etc",
+                    "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
                 },
                 "topic":{
                     "blurb":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
@@ -99,10 +99,10 @@
             },
             {
                 "name":"Board 4 Name",
-                "subject":"Board 4 Subject",
                 "bgColour":"#f1c40f",
                 "description":{
-                    "blurb":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+                    "short":"Short description, subject info, etc",
+                    "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
                 },
                 "topic":{
                     "blurb":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
@@ -122,10 +122,10 @@
             },
             {
                 "name":"Board 5 Name",
-                "subject":"Board 5 Subject",
                 "bgColour":"#e67e22",
                 "description":{
-                    "blurb":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+                    "short":"Short description, subject info, etc",
+                    "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
                 },
                 "topic":{
                     "blurb":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
@@ -145,10 +145,10 @@
             },
             {
                 "name":"Board 6 Name",
-                "subject":"Board 6 Subject",
                 "bgColour":"#e74c3c",
                 "description":{
-                    "blurb":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+                    "short":"Short description, subject info, etc",
+                    "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
                 },
                 "topic":{
                     "blurb":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
@@ -168,10 +168,10 @@
             },
             {
                 "name":"Board 7 Name",
-                "subject":"Board 7 Subject",
                 "bgColour":"#9b59b6",
                 "description":{
-                    "blurb":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+                    "short":"Short description, subject info, etc",
+                    "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
                 },
                 "topic":{
                     "blurb":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
@@ -191,10 +191,10 @@
             },
             {
                 "name":"Board 8 Name",
-                "subject":"Board 8 Subject",
                 "bgColour":"#edafd7",
                 "description":{
-                    "blurb":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+                    "short":"Short description, subject info, etc",
+                    "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
                 },
                 "topic":{
                     "blurb":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
@@ -214,10 +214,10 @@
             },
             {
                 "name":"Board 9 Name",
-                "subject":"Board 9 Subject",
                 "bgColour":"#34495e",
                 "description":{
-                    "blurb":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+                    "short":"Short description, subject info, etc",
+                    "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
                 },
                 "topic":{
                     "blurb":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"

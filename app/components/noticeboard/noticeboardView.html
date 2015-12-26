@@ -2,7 +2,7 @@
     <div layout="row" layout-align="center">
         <div class="flex" flex-sm="80" flex-gt-sm="60">
             <h1 class="center md-display-3">{{currentBoard.name}}</h1>
-            <h3 class="center md-headline">{{currentBoard.subject}}</h3>
+            <h3 class="center md-headline">{{currentBoard.description.short}}</h3>
         </div>
     </div>
 </header>
@@ -10,8 +10,7 @@
 <section layout="row" layout-align="center">
     <div class="flex" flex-sm="80" flex-gt-sm="60">
         <span ng-if="modules.description.included">
-            <h2 class="md-display-2">{{modules.description.header}}</h2>
-            <h3 class="md-headline">{{currentBoard.description.blurb}}</h3>
+            <h3 class="md-headline">{{currentBoard.description.long}}</h3>
         </span>
         <span ng-if="modules.topic.included">
             <h2 class="md-display-2">{{modules.topic.header}}</h2>
