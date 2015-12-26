@@ -1,25 +1,28 @@
-.list-button {
+.md-button.fixed {
     position: fixed;
-    bottom: 15px;
-    left: 15px;
 }
-.info-button {
-    position: fixed;
-    bottom: 15px;
-    left: 15px;
+.md-button.fixed.top {
+    top: 15px;
 }
-.setup-button {
-    position: fixed;
+.md-button.fixed.right {
     right: 15px;
+}
+.md-button.fixed.bottom {
     bottom: 15px;
 }
-.list-button:hover, .info-button:hover, .setup-button:hover {
+.md-button.fixed.left {
+    left: 15px;
+}
+.md-button.grow:hover {
     -webkit-transform: scale(1.35);
        -moz-transform: scale(1.35);
         -ms-transform: scale(1.35);
          -o-transform: scale(1.35);
             transform: scale(1.35);
 }
-md-button i {
+.md-button i {
     margin: 0 auto;
+}
+.md-button i.fa-2x {
+    line-height: 2em;
 }
