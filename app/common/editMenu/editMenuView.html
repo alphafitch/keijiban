@@ -1,4 +1,4 @@
-<div ng-click="toggleEditMenu()" ng-hide="isOpenRight()">
+<div ng-click="toggleEditMenu()" ng-hide="isOpen()">
     <md-button class="md-fab md-primary setup-button flex-center" aria-label="Go to setup button">
         <i class="fa fa-2x fa-pencil-square-o"></i>
     </md-button>
@@ -12,7 +12,7 @@
                 <h1 class="md-toolbar-tools">Edit</h1>
             </md-toolbar>
 
-            <form ng-controller="RightCtrl" layout-padding>
+            <form ng-controller="editMenuController" layout-padding>
                 <h3 class="md-headline">Basic Info</h3>
                 <md-input-container>
                     <label>Name</label>
