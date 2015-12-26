@@ -23,7 +23,8 @@
             },
             "contact":{
                 "included":true,
-                "header":"Contact"
+                "header":"Contact",
+                "label":"If you would like to join or find out more you can contact:"
             }
         },
         "data":[
