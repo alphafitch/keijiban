@@ -14,9 +14,12 @@
                 "included":true,
                 "header":"Topic of the next event"
             },
-            "venue":{
+            "event":{
                 "included":true,
-                "header":"Venue of the next event"
+                "header":"Event Information"
+            },
+            "venue":{
+                "included":true
             },
             "contact":{
                 "included":true,

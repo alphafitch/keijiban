@@ -17,11 +17,12 @@
             <h2 class="md-display-2">{{modules.topic.header}}</h2>
             <h3 class="md-headline">{{currentBoard.topic.blurb}}</h3>
         </span>
-        <span ng-if="modules.venue.included">
-            <h2 class="md-display-2">{{modules.venue.header}}</h2>
-            <h3 class="md-headline">This month's club will take place on {{currentBoard.event.date}} in {{currentBoard.venue.location}}.</h3>
-            <h3 class="md-headline">It will run from {{currentBoard.event.startTime}} until {{currentBoard.event.endTime}}.</h3>
-            <h3 class="md-headline">We hope to see you there!</h3>
+        <span ng-if="modules.event.included">
+            <h2 class="md-display-2">{{modules.event.header}}</h2>
+            <h3 class="md-headline">This month's club will take place on {{currentBoard.event.date}} and it will run from {{currentBoard.event.startTime}} until {{currentBoard.event.endTime}}.</h3>
+            <span ng-if="modules.venue.included">
+                <h3 class="md-headline">This months venue will be {{currentBoard.venue.location}}. We hope to see you there!</h3>
+            </span>
         </span>
     </div>
 </section>
