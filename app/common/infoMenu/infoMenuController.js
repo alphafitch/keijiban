@@ -1,9 +1,5 @@
 keijibanApp.controller('infoMenuController', function($scope, $location,  $timeout, $mdSidenav, $log) {
 
-    $scope.goToInfo = function() {
-        $location.url("info");
-    };
-
     $scope.toggleLeft = buildToggler('left');
 
     $scope.isOpenLeft = function(){
