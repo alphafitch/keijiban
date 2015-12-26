@@ -1,9 +1,9 @@
 keijibanApp.controller('editMenuController', function($scope, $location,  $timeout, $mdSidenav, $log) {
 
-    $scope.toggleRight = buildToggler('right');
+    $scope.toggleEditMenu = buildToggler('editMenu');
 
     $scope.isOpenRight = function(){
-      return $mdSidenav('right').isOpen();
+      return $mdSidenav('editMenu').isOpen();
     };
 
     /**
@@ -41,7 +41,7 @@ keijibanApp.controller('editMenuController', function($scope, $location,  $timeo
     }).controller('RightCtrl', function ($scope, $timeout, $mdSidenav, $log) {
 
     $scope.close = function () {
-      $mdSidenav('right').close();
+      $mdSidenav('editMenu').close();
     };
 
 });

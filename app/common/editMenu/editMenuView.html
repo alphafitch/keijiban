@@ -1,4 +1,4 @@
-<div ng-click="toggleRight()" ng-hide="isOpenRight()">
+<div ng-click="toggleEditMenu()" ng-hide="isOpenRight()">
     <md-button class="md-fab md-primary setup-button flex-center" aria-label="Go to setup button">
         <i class="fa fa-2x fa-pencil-square-o"></i>
     </md-button>
@@ -6,7 +6,7 @@
 
 <div layout="column" ng-cloak>
     <section layout="row" flex>
-        <md-sidenav class="md-sidenav-right md-whiteframe-z2" md-component-id="right">
+        <md-sidenav class="md-sidenav-right md-whiteframe-z2" md-component-id="editMenu">
 
             <md-toolbar ng-style="{ 'background-color':currentBoard.bgColour }">
                 <h1 class="md-toolbar-tools">Edit</h1>

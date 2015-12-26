@@ -1,9 +1,9 @@
 keijibanApp.controller('infoMenuController', function($scope, $location,  $timeout, $mdSidenav, $log) {
 
-    $scope.toggleLeft = buildToggler('left');
+    $scope.toggleInfoMenu = buildToggler('infoMenu');
 
     $scope.isOpenLeft = function(){
-      return $mdSidenav('left').isOpen();
+      return $mdSidenav('infoMenu').isOpen();
     };
 
     /**
@@ -41,7 +41,7 @@ keijibanApp.controller('infoMenuController', function($scope, $location,  $timeo
     }).controller('LeftCtrl', function ($scope, $timeout, $mdSidenav, $log) {
 
     $scope.close = function () {
-      $mdSidenav('left').close();
+      $mdSidenav('infoMenu').close();
     };
 
 });
