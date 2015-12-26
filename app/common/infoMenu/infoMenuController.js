@@ -1,4 +1,4 @@
-keijibanApp.controller('infoMenuController', function($scope, $location,  $timeout, $mdSidenav, $log) {
+keijibanApp.controller('infoMenuController', function($scope, $mdSidenav) {
 
     $scope.toggleInfoMenu = buildToggler('infoMenu');
 
