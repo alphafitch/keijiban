@@ -32,10 +32,16 @@
                 </md-input-container>
 
                 <h3 class="md-headline">Topic Info</h3>
-                <md-input-container>
-                    <label>Topic</label>
-                    <input ng-model="currentBoard.topic.blurb">
-                </md-input-container>
+                <span ng-repeat="topic in currentBoard.topics">
+                    <md-input-container>
+                        <label>Topic Header</label>
+                        <input ng-model="currentBoard.topic.header">
+                    </md-input-container>
+                    <md-input-container>
+                        <label>Topic Description</label>
+                        <input ng-model="currentBoard.topic.description">
+                    </md-input-container>
+                </span>
 
                 <h3 class="md-headline">Event Info</h3>
                 <md-input-container>
