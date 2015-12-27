@@ -11,7 +11,7 @@
             "description":{
                 "included":true
             },
-            "topic":{
+            "topics":{
                 "included":true,
                 "header":"Upcoming topics"
             },
