@@ -45,6 +45,9 @@ md-sidenav {
     max-width: none;
     width: 50%;
 }
+md-sidenav.full-height {
+    bottom: 0;
+}
 md-backdrop {
     position: fixed;
 }
