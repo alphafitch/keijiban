@@ -21,6 +21,9 @@
                     <b>{{topic.header}}</b> - <span>{{topic.description}}</span>
                 </li>
             </ul>
+            <span ng-if="modules.topics.allowSuggestions">
+                <p class="md-headline">{{modules.topics.suggestionText}} <a href="mailto:{{currentBoard.owner.email}}">{{currentBoard.owner.name}}</a>.</p>
+            </span>
         </span>
 
         <span ng-if="modules.event.included">

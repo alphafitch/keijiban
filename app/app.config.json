@@ -13,7 +13,9 @@
             },
             "topics":{
                 "included":true,
-                "header":"Upcoming topics"
+                "header":"Upcoming topics",
+                "allowSuggestions":true,
+                "suggestionText":"Got a suggestion for a topic? Get in touch with"
             },
             "event":{
                 "included":true,
