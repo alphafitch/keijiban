@@ -27,7 +27,7 @@
             "contact":{
                 "included":true,
                 "header":"Contact",
-                "label":"If you would like to join or find out more you can contact:"
+                "label":"If you would like to join or find out more you can contact"
             }
         },
         "data":[
