@@ -21,7 +21,8 @@
                 "text":"The event will take place on {date} and it will run from {startTime} until {endTime}."
             },
             "venue":{
-                "included":true
+                "included":true,
+                "text":"The venue will be {location}. We hope to see you there!"
             },
             "contact":{
                 "included":true,

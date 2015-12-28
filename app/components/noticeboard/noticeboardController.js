@@ -16,4 +16,14 @@ keijibanApp.controller('noticeboardController', function($scope, $rootScope) {
             return defaultText;
     };
 
+    // Modifies the default venue text to fit the config for each noticeboard
+    $scope.buildVenueModuleText = function() {
+        var defaultText = $scope.modules.venue.text,
+            venueLocation = $scope.currentBoard.venue.location;
+
+            defaultText = defaultText.replace("{location}", venueLocation);
+
+            return defaultText;
+    };
+
 });
