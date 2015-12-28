@@ -1,7 +1,4 @@
 {
-    "info":{
-        "blurb":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aperiam vitae, porro, consequatur eveniet fugit, libero architecto perferendis similique possimus sapiente illum? Libero inventore id est, nam ab vitae. Maxime."
-    },
     "list":{
         "boardsPerPage":9,
         "showDescription":true
