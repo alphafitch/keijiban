@@ -2,8 +2,7 @@ keijibanApp.controller('noticeboardController', function($scope, $rootScope) {
 
     $scope.currentBoard = $scope.boards[$rootScope.currentSelection];
 
-    // Modifies the default event text to fit the config for each noticeboard
-    $scope.buildEventModuleText = function() {
+    $scope.buildEventText = function() {
         var defaultText = $scope.modules.event.text,
             eventDate = $scope.currentBoard.event.date,
             eventStart = $scope.currentBoard.event.startTime,
@@ -16,8 +15,7 @@ keijibanApp.controller('noticeboardController', function($scope, $rootScope) {
             return defaultText;
     };
 
-    // Modifies the default venue text to fit the config for each noticeboard
-    $scope.buildVenueModuleText = function() {
+    $scope.buildVenueText = function() {
         var defaultText = $scope.modules.venue.text,
             venueLocation = $scope.currentBoard.venue.location;
 
