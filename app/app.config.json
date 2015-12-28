@@ -1,6 +1,7 @@
 {
     "list":{
-        "boardsPerPage":9,
+        "maxWidth":3,
+        "maxHeight":3,
         "showDescription":true
     },
     "boards":{
