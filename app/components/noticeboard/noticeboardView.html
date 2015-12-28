@@ -28,7 +28,7 @@
 
         <span ng-if="modules.event.included">
             <h2 class="md-display-2">{{modules.event.header}}</h2>
-            <h3 class="md-headline">This month's club will take place on {{currentBoard.event.date}} and it will run from {{currentBoard.event.startTime}} until {{currentBoard.event.endTime}}.</h3>
+            <h3 class="md-headline">{{buildEventModuleText()}}</h3>
         </span>
 
         <span ng-if="modules.venue.included">

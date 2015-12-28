@@ -17,7 +17,8 @@
             },
             "event":{
                 "included":true,
-                "header":"Event Information"
+                "header":"Event Information",
+                "text":"The event will take place on {date} and it will run from {startTime} until {endTime}."
             },
             "venue":{
                 "included":true
