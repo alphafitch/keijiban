@@ -1,0 +1,9 @@
+<h2 class="md-display-2">{{modules.topics.header}}</h2>
+<ul>
+    <li ng-repeat="topic in currentBoard.topics" class="md-headline">
+        <b>{{topic.header}}</b> - <span>{{topic.description}}</span>
+    </li>
+</ul>
+<span ng-if="modules.topics.allowSuggestions">
+    <p class="md-headline">{{modules.topics.suggestionText}} <a href="mailto:{{currentBoard.owner.email}}">{{currentBoard.owner.name}}</a>.</p>
+</span>
