@@ -1,9 +1,7 @@
 {
-    "info":{
-        "blurb":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aperiam vitae, porro, consequatur eveniet fugit, libero architecto perferendis similique possimus sapiente illum? Libero inventore id est, nam ab vitae. Maxime."
-    },
     "list":{
-        "boardsPerPage":9,
+        "maxWidth":3,
+        "maxHeight":3,
         "showDescription":true
     },
     "boards":{
@@ -19,10 +17,12 @@
             },
             "event":{
                 "included":true,
-                "header":"Event Information"
+                "header":"Event Information",
+                "text":"The event will take place on {date} and it will run from {startTime} until {endTime}."
             },
             "venue":{
-                "included":true
+                "included":true,
+                "text":"The venue will be {location}. We hope to see you there!"
             },
             "contact":{
                 "included":true,
@@ -54,7 +54,7 @@
                     "endTime":"15:00"
                 },
                 "venue":{
-                    "location":"Event location"
+                    "location":"4 Privet Drive"
                 },
                 "owner":{
                     "name":"Board owner",
@@ -84,7 +84,7 @@
                     "endTime":"15:00"
                 },
                 "venue":{
-                    "location":"Event location"
+                    "location":"4 Privet Drive"
                 },
                 "owner":{
                     "name":"Board owner",
@@ -114,7 +114,7 @@
                     "endTime":"15:00"
                 },
                 "venue":{
-                    "location":"Event location"
+                    "location":"4 Privet Drive"
                 },
                 "owner":{
                     "name":"Board owner",
@@ -144,7 +144,7 @@
                     "endTime":"15:00"
                 },
                 "venue":{
-                    "location":"Event location"
+                    "location":"4 Privet Drive"
                 },
                 "owner":{
                     "name":"Board owner",
@@ -174,7 +174,7 @@
                     "endTime":"15:00"
                 },
                 "venue":{
-                    "location":"Event location"
+                    "location":"4 Privet Drive"
                 },
                 "owner":{
                     "name":"Board owner",
@@ -204,7 +204,7 @@
                     "endTime":"15:00"
                 },
                 "venue":{
-                    "location":"Event location"
+                    "location":"4 Privet Drive"
                 },
                 "owner":{
                     "name":"Board owner",
@@ -234,7 +234,7 @@
                     "endTime":"15:00"
                 },
                 "venue":{
-                    "location":"Event location"
+                    "location":"4 Privet Drive"
                 },
                 "owner":{
                     "name":"Board owner",
@@ -264,7 +264,7 @@
                     "endTime":"15:00"
                 },
                 "venue":{
-                    "location":"Event location"
+                    "location":"4 Privet Drive"
                 },
                 "owner":{
                     "name":"Board owner",
@@ -294,7 +294,7 @@
                     "endTime":"15:00"
                 },
                 "venue":{
-                    "location":"Event location"
+                    "location":"4 Privet Drive"
                 },
                 "owner":{
                     "name":"Board owner",

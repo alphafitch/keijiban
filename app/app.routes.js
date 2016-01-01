@@ -4,9 +4,9 @@ keijibanApp.config(['$routeProvider', function ($routeProvider) {
             templateUrl: 'app/components/list/listView.html',
             controller: 'listController'
         })
-        .when('/noticeboard', {
-            templateUrl: 'app/components/noticeboard/noticeboardView.html',
-            controller: 'noticeboardController'
+        .when('/board', {
+            templateUrl: 'app/components/board/boardView.html',
+            controller: 'boardController'
         })
         .otherwise({
             redirectTo: '/list'
