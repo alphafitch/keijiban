@@ -4,9 +4,9 @@ node_js:
   - "0.10"
 before_script:
   - npm install
-  - npm install --save-dev gulp
-  - npm install --save-dev gulp-zip
-  - npm install --save-dev gulp-minify
+  - npm install gulp
+  - npm install gulp-zip
+  - npm install gulp-minify
 script: gulp
 
 # blacklist
