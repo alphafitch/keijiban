@@ -19,3 +19,4 @@ branches:
     - stable
     - develop
     - /^feature-.*$/
+    - gulp_minify_artefact
