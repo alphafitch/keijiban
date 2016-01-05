@@ -5,6 +5,7 @@
             <h3 class="center md-headline">{{currentBoard.description.short}}</h3>
         </div>
     </div>
+    <edit-menu></edit-menu>
 </header>
 
 <section layout="row" layout-align="center">
@@ -17,7 +18,5 @@
 </section>
 
 <footer ng-if="modules.contact.included" ng-include="'app/components/modules/contactView.html'" ng-style="{ 'background-color':currentBoard.bgColour }"></footer>
-
-<edit-menu></edit-menu>
 
 <list-button></list-button>
