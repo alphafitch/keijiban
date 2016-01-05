@@ -1,98 +1,102 @@
-<span ng-click="toggleEditMenu()" ng-hide="isOpen()" class="flex-center">
-    <md-button class="md-raised md-primary grow" aria-label="Go to setup button">
-        <span>Edit</span>
-        <i class="fa fa-pencil-square-o"></i>
-    </md-button>
-</span>
+<span ng-if="settings.editMode">
 
-<div layout="column" ng-cloak>
-    <section layout="row" flex>
-        <md-sidenav class="md-sidenav-right md-whiteframe-z2" md-component-id="editMenu">
+    <span ng-click="toggleEditMenu()" ng-hide="isOpen()" class="flex-center">
+        <md-button class="md-raised md-primary grow" aria-label="Go to setup button">
+            <span>Edit</span>
+            <i class="fa fa-pencil-square-o"></i>
+        </md-button>
+    </span>
 
-            <md-toolbar ng-style="{ 'background-color':currentBoard.bgColour }">
-                <h1 class="md-toolbar-tools">Edit</h1>
-            </md-toolbar>
+    <div layout="column" ng-cloak>
+        <section layout="row" flex>
+            <md-sidenav class="md-sidenav-right md-whiteframe-z2" md-component-id="editMenu">
 
-            <form ng-controller="editMenuController" layout-padding>
+                <md-toolbar ng-style="{ 'background-color':currentBoard.bgColour }">
+                    <h1 class="md-toolbar-tools">Edit</h1>
+                </md-toolbar>
 
-                <h3 class="md-headline">Basic Info</h3>
-                <md-input-container>
-                    <label>Name</label>
-                    <input ng-model="currentBoard.header">
-                </md-input-container>
-                <md-input-container>
-                    <label>Primary colour</label>
-                    <input ng-model="currentBoard.bgColour">
-                </md-input-container>
+                <form ng-controller="editMenuController" layout-padding>
 
-                <span ng-if="modules.description.included">
-                    <h3 class="md-headline">Board Description</h3>
+                    <h3 class="md-headline">Basic Info</h3>
                     <md-input-container>
-                        <label>Short description</label>
-                        <input ng-model="currentBoard.description.short">
+                        <label>Name</label>
+                        <input ng-model="currentBoard.header">
                     </md-input-container>
                     <md-input-container>
-                        <label>Long description</label>
-                        <textarea ng-model="currentBoard.description.long" rows="4"></textarea>
+                        <label>Primary colour</label>
+                        <input ng-model="currentBoard.bgColour">
                     </md-input-container>
-                </span>
 
-                <span ng-if="modules.topics.included">
-                    <h3 class="md-headline">Topic Info</h3>
-                    <span ng-repeat="topic in currentBoard.topics">
+                    <span ng-if="modules.description.included">
+                        <h3 class="md-headline">Board Description</h3>
                         <md-input-container>
-                            <label>Topic Header</label>
-                            <input ng-model="topic.header">
+                            <label>Short description</label>
+                            <input ng-model="currentBoard.description.short">
                         </md-input-container>
                         <md-input-container>
-                            <label>Topic Description</label>
-                            <input ng-model="topic.description">
+                            <label>Long description</label>
+                            <textarea ng-model="currentBoard.description.long" rows="4"></textarea>
                         </md-input-container>
                     </span>
-                </span>
 
-                <span ng-if="modules.event.included">
-                    <h3 class="md-headline">Event Info</h3>
-                    <md-input-container>
-                        <label>Date</label>
-                        <input ng-model="currentBoard.event.date">
-                    </md-input-container>
-                    <md-input-container>
-                        <label>Start Time</label>
-                        <input ng-model="currentBoard.event.startTime">
-                    </md-input-container>
-                    <md-input-container>
-                        <label>End Time</label>
-                        <input ng-model="currentBoard.event.endTime">
-                    </md-input-container>
-                </span>
+                    <span ng-if="modules.topics.included">
+                        <h3 class="md-headline">Topic Info</h3>
+                        <span ng-repeat="topic in currentBoard.topics">
+                            <md-input-container>
+                                <label>Topic Header</label>
+                                <input ng-model="topic.header">
+                            </md-input-container>
+                            <md-input-container>
+                                <label>Topic Description</label>
+                                <input ng-model="topic.description">
+                            </md-input-container>
+                        </span>
+                    </span>
 
-                <span ng-if="modules.venue.included">
-                    <h3 class="md-headline">Venue Info</h3>
-                    <md-input-container>
-                        <label>Location</label>
-                        <input ng-model="currentBoard.venue.location">
-                    </md-input-container>
-                </span>
+                    <span ng-if="modules.event.included">
+                        <h3 class="md-headline">Event Info</h3>
+                        <md-input-container>
+                            <label>Date</label>
+                            <input ng-model="currentBoard.event.date">
+                        </md-input-container>
+                        <md-input-container>
+                            <label>Start Time</label>
+                            <input ng-model="currentBoard.event.startTime">
+                        </md-input-container>
+                        <md-input-container>
+                            <label>End Time</label>
+                            <input ng-model="currentBoard.event.endTime">
+                        </md-input-container>
+                    </span>
 
-                <span ng-if="modules.contact.included">
-                    <h3 class="md-headline">Contact Info</h3>
-                    <md-input-container>
-                        <label>Contact Name</label>
-                        <input ng-model="currentBoard.owner.name">
-                    </md-input-container>
-                    <md-input-container>
-                        <label>Contact Email</label>
-                        <input ng-model="currentBoard.owner.email">
-                    </md-input-container>
-                </span>
+                    <span ng-if="modules.venue.included">
+                        <h3 class="md-headline">Venue Info</h3>
+                        <md-input-container>
+                            <label>Location</label>
+                            <input ng-model="currentBoard.venue.location">
+                        </md-input-container>
+                    </span>
 
-            </form>
+                    <span ng-if="modules.contact.included">
+                        <h3 class="md-headline">Contact Info</h3>
+                        <md-input-container>
+                            <label>Contact Name</label>
+                            <input ng-model="currentBoard.owner.name">
+                        </md-input-container>
+                        <md-input-container>
+                            <label>Contact Email</label>
+                            <input ng-model="currentBoard.owner.email">
+                        </md-input-container>
+                    </span>
 
-            <div class="flex-center">
-                <md-button ng-click="close()" class="md-raised md-primary">Save</md-button>
-            </div>
+                </form>
 
-        </md-sidenav>
-    </section>
-</div>
+                <div class="flex-center">
+                    <md-button ng-click="close()" class="md-raised md-primary">Save</md-button>
+                </div>
+
+            </md-sidenav>
+        </section>
+    </div>
+
+</span>

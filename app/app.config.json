@@ -1,306 +1,309 @@
 {
-    "list":{
-        "maxWidth":3,
-        "maxHeight":3,
-        "showDescription":true
-    },
-    "boards":{
-        "modules":{
+   "settings":{
+      "editMode":false
+   },
+   "list":{
+      "maxWidth":3,
+      "maxHeight":3,
+      "showDescription":true
+   },
+   "boards":{
+      "modules":{
+         "description":{
+            "included":true
+         },
+         "topics":{
+            "included":true,
+            "header":"Upcoming topics",
+            "allowSuggestions":true,
+            "suggestionText":"Got a suggestion for a topic? Get in touch with"
+         },
+         "event":{
+            "included":true,
+            "header":"Event Information",
+            "text":"The event will take place on {date} and it will run from {startTime} until {endTime}."
+         },
+         "venue":{
+            "included":true,
+            "text":"The venue will be {location}. We hope to see you there!"
+         },
+         "contact":{
+            "included":true,
+            "header":"Contact",
+            "label":"If you would like to join or find out more you can contact"
+         }
+      },
+      "data":[
+         {
+            "header":"Board Title/Name etc.",
+            "bgColour":"#1abc9c",
             "description":{
-                "included":true
+               "short":"Short description, subject info, etc",
+               "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
             },
-            "topics":{
-                "included":true,
-                "header":"Upcoming topics",
-                "allowSuggestions":true,
-                "suggestionText":"Got a suggestion for a topic? Get in touch with"
-            },
+            "topics":[
+               {
+                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+               },
+               {
+                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+               }
+            ],
             "event":{
-                "included":true,
-                "header":"Event Information",
-                "text":"The event will take place on {date} and it will run from {startTime} until {endTime}."
+               "date":"01/01/2015",
+               "startTime":"14:00",
+               "endTime":"15:00"
             },
             "venue":{
-                "included":true,
-                "text":"The venue will be {location}. We hope to see you there!"
+               "location":"4 Privet Drive"
             },
-            "contact":{
-                "included":true,
-                "header":"Contact",
-                "label":"If you would like to join or find out more you can contact"
+            "owner":{
+               "name":"Board owner",
+               "email":"board.owner@keijiban.co.uk"
             }
-        },
-        "data":[
-            {
-                "header":"Board Title/Name etc.",
-                "bgColour":"#1abc9c",
-                "description":{
-                    "short":"Short description, subject info, etc",
-                    "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
-                },
-                "topics":[
-                    {
-                        "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-                    },
-                    {
-                        "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-                    }
-                ],
-                "event":{
-                    "date":"01/01/2015",
-                    "startTime":"14:00",
-                    "endTime":"15:00"
-                },
-                "venue":{
-                    "location":"4 Privet Drive"
-                },
-                "owner":{
-                    "name":"Board owner",
-                    "email":"board.owner@keijiban.co.uk"
-                }
+         },
+         {
+            "header":"Board Title/Name etc.",
+            "bgColour":"#2ecc71",
+            "description":{
+               "short":"Short description, subject info, etc",
+               "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
             },
-            {
-                "header":"Board Title/Name etc.",
-                "bgColour":"#2ecc71",
-                "description":{
-                    "short":"Short description, subject info, etc",
-                    "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
-                },
-                "topics":[
-                    {
-                        "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-                    },
-                    {
-                        "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-                    }
-                ],
-                "event":{
-                    "date":"01/01/2015",
-                    "startTime":"14:00",
-                    "endTime":"15:00"
-                },
-                "venue":{
-                    "location":"4 Privet Drive"
-                },
-                "owner":{
-                    "name":"Board owner",
-                    "email":"board.owner@keijiban.co.uk"
-                }
+            "topics":[
+               {
+                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+               },
+               {
+                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+               }
+            ],
+            "event":{
+               "date":"01/01/2015",
+               "startTime":"14:00",
+               "endTime":"15:00"
             },
-            {
-                "header":"Board Title/Name etc.",
-                "bgColour":"#3498db",
-                "description":{
-                    "short":"Short description, subject info, etc",
-                    "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
-                },
-                "topics":[
-                    {
-                        "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-                    },
-                    {
-                        "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-                    }
-                ],
-                "event":{
-                    "date":"01/01/2015",
-                    "startTime":"14:00",
-                    "endTime":"15:00"
-                },
-                "venue":{
-                    "location":"4 Privet Drive"
-                },
-                "owner":{
-                    "name":"Board owner",
-                    "email":"board.owner@keijiban.co.uk"
-                }
+            "venue":{
+               "location":"4 Privet Drive"
             },
-            {
-                "header":"Board Title/Name etc.",
-                "bgColour":"#f1c40f",
-                "description":{
-                    "short":"Short description, subject info, etc",
-                    "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
-                },
-                "topics":[
-                    {
-                        "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-                    },
-                    {
-                        "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-                    }
-                ],
-                "event":{
-                    "date":"01/01/2015",
-                    "startTime":"14:00",
-                    "endTime":"15:00"
-                },
-                "venue":{
-                    "location":"4 Privet Drive"
-                },
-                "owner":{
-                    "name":"Board owner",
-                    "email":"board.owner@keijiban.co.uk"
-                }
-            },
-            {
-                "header":"Board Title/Name etc.",
-                "bgColour":"#e67e22",
-                "description":{
-                    "short":"Short description, subject info, etc",
-                    "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
-                },
-                "topics":[
-                    {
-                        "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-                    },
-                    {
-                        "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-                    }
-                ],
-                "event":{
-                    "date":"01/01/2015",
-                    "startTime":"14:00",
-                    "endTime":"15:00"
-                },
-                "venue":{
-                    "location":"4 Privet Drive"
-                },
-                "owner":{
-                    "name":"Board owner",
-                    "email":"board.owner@keijiban.co.uk"
-                }
-            },
-            {
-                "header":"Board Title/Name etc.",
-                "bgColour":"#e74c3c",
-                "description":{
-                    "short":"Short description, subject info, etc",
-                    "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
-                },
-                "topics":[
-                    {
-                        "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-                    },
-                    {
-                        "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-                    }
-                ],
-                "event":{
-                    "date":"01/01/2015",
-                    "startTime":"14:00",
-                    "endTime":"15:00"
-                },
-                "venue":{
-                    "location":"4 Privet Drive"
-                },
-                "owner":{
-                    "name":"Board owner",
-                    "email":"board.owner@keijiban.co.uk"
-                }
-            },
-            {
-                "header":"Board Title/Name etc.",
-                "bgColour":"#9b59b6",
-                "description":{
-                    "short":"Short description, subject info, etc",
-                    "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
-                },
-                "topics":[
-                    {
-                        "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-                    },
-                    {
-                        "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-                    }
-                ],
-                "event":{
-                    "date":"01/01/2015",
-                    "startTime":"14:00",
-                    "endTime":"15:00"
-                },
-                "venue":{
-                    "location":"4 Privet Drive"
-                },
-                "owner":{
-                    "name":"Board owner",
-                    "email":"board.owner@keijiban.co.uk"
-                }
-            },
-            {
-                "header":"Board Title/Name etc.",
-                "bgColour":"#edafd7",
-                "description":{
-                    "short":"Short description, subject info, etc",
-                    "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
-                },
-                "topics":[
-                    {
-                        "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-                    },
-                    {
-                        "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-                    }
-                ],
-                "event":{
-                    "date":"01/01/2015",
-                    "startTime":"14:00",
-                    "endTime":"15:00"
-                },
-                "venue":{
-                    "location":"4 Privet Drive"
-                },
-                "owner":{
-                    "name":"Board owner",
-                    "email":"board.owner@keijiban.co.uk"
-                }
-            },
-            {
-                "header":"Board Title/Name etc.",
-                "bgColour":"#34495e",
-                "description":{
-                    "short":"Short description, subject info, etc",
-                    "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
-                },
-                "topics":[
-                    {
-                        "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-                    },
-                    {
-                        "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-                    }
-                ],
-                "event":{
-                    "date":"01/01/2015",
-                    "startTime":"14:00",
-                    "endTime":"15:00"
-                },
-                "venue":{
-                    "location":"4 Privet Drive"
-                },
-                "owner":{
-                    "name":"Board owner",
-                    "email":"board.owner@keijiban.co.uk"
-                }
+            "owner":{
+               "name":"Board owner",
+               "email":"board.owner@keijiban.co.uk"
             }
-        ]
-    }
+         },
+         {
+            "header":"Board Title/Name etc.",
+            "bgColour":"#3498db",
+            "description":{
+               "short":"Short description, subject info, etc",
+               "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+            },
+            "topics":[
+               {
+                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+               },
+               {
+                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+               }
+            ],
+            "event":{
+               "date":"01/01/2015",
+               "startTime":"14:00",
+               "endTime":"15:00"
+            },
+            "venue":{
+               "location":"4 Privet Drive"
+            },
+            "owner":{
+               "name":"Board owner",
+               "email":"board.owner@keijiban.co.uk"
+            }
+         },
+         {
+            "header":"Board Title/Name etc.",
+            "bgColour":"#f1c40f",
+            "description":{
+               "short":"Short description, subject info, etc",
+               "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+            },
+            "topics":[
+               {
+                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+               },
+               {
+                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+               }
+            ],
+            "event":{
+               "date":"01/01/2015",
+               "startTime":"14:00",
+               "endTime":"15:00"
+            },
+            "venue":{
+               "location":"4 Privet Drive"
+            },
+            "owner":{
+               "name":"Board owner",
+               "email":"board.owner@keijiban.co.uk"
+            }
+         },
+         {
+            "header":"Board Title/Name etc.",
+            "bgColour":"#e67e22",
+            "description":{
+               "short":"Short description, subject info, etc",
+               "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+            },
+            "topics":[
+               {
+                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+               },
+               {
+                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+               }
+            ],
+            "event":{
+               "date":"01/01/2015",
+               "startTime":"14:00",
+               "endTime":"15:00"
+            },
+            "venue":{
+               "location":"4 Privet Drive"
+            },
+            "owner":{
+               "name":"Board owner",
+               "email":"board.owner@keijiban.co.uk"
+            }
+         },
+         {
+            "header":"Board Title/Name etc.",
+            "bgColour":"#e74c3c",
+            "description":{
+               "short":"Short description, subject info, etc",
+               "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+            },
+            "topics":[
+               {
+                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+               },
+               {
+                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+               }
+            ],
+            "event":{
+               "date":"01/01/2015",
+               "startTime":"14:00",
+               "endTime":"15:00"
+            },
+            "venue":{
+               "location":"4 Privet Drive"
+            },
+            "owner":{
+               "name":"Board owner",
+               "email":"board.owner@keijiban.co.uk"
+            }
+         },
+         {
+            "header":"Board Title/Name etc.",
+            "bgColour":"#9b59b6",
+            "description":{
+               "short":"Short description, subject info, etc",
+               "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+            },
+            "topics":[
+               {
+                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+               },
+               {
+                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+               }
+            ],
+            "event":{
+               "date":"01/01/2015",
+               "startTime":"14:00",
+               "endTime":"15:00"
+            },
+            "venue":{
+               "location":"4 Privet Drive"
+            },
+            "owner":{
+               "name":"Board owner",
+               "email":"board.owner@keijiban.co.uk"
+            }
+         },
+         {
+            "header":"Board Title/Name etc.",
+            "bgColour":"#edafd7",
+            "description":{
+               "short":"Short description, subject info, etc",
+               "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+            },
+            "topics":[
+               {
+                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+               },
+               {
+                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+               }
+            ],
+            "event":{
+               "date":"01/01/2015",
+               "startTime":"14:00",
+               "endTime":"15:00"
+            },
+            "venue":{
+               "location":"4 Privet Drive"
+            },
+            "owner":{
+               "name":"Board owner",
+               "email":"board.owner@keijiban.co.uk"
+            }
+         },
+         {
+            "header":"Board Title/Name etc.",
+            "bgColour":"#34495e",
+            "description":{
+               "short":"Short description, subject info, etc",
+               "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+            },
+            "topics":[
+               {
+                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+               },
+               {
+                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+               }
+            ],
+            "event":{
+               "date":"01/01/2015",
+               "startTime":"14:00",
+               "endTime":"15:00"
+            },
+            "venue":{
+               "location":"4 Privet Drive"
+            },
+            "owner":{
+               "name":"Board owner",
+               "email":"board.owner@keijiban.co.uk"
+            }
+         }
+      ]
+   }
 }

@@ -7,6 +7,7 @@ keijibanApp.controller('appController', function($scope, $http, $location, $mdSi
 
     // Load all the required config from the master JSON file
     $http.get('app/app.config.json').then(function(response) {
+        $scope.settings = response.data.settings;
         $scope.list = response.data.list;
         $scope.modules = response.data.boards.modules;
         $scope.boards = response.data.boards.data;
