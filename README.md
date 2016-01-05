@@ -28,8 +28,12 @@ Use your board to display a list of notices about groups, events or anything els
 
 ## Authors
 
-Mohamed Kherroubi [@mkherroubi93](https://twitter.com/mkherroubi93)
-Christopher Fisher [@alphafitch](https://twitter.com/alphafitch)
+* Mohamed Kherroubi [@mkherroubi93](https://twitter.com/mkherroubi93)
+* Christopher Fisher [@alphafitch](https://twitter.com/alphafitch)
+
+## Contributors
+
+* Matthias Bremser
 
 ## License
 
