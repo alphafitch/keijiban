@@ -1,5 +1,7 @@
 # Keijiban - The Digital Noticeboard
 
+[![Build Status](https://travis-ci.org/alphafitch/keijiban.svg?branch=master)](https://travis-ci.org/alphafitch/keijiban)
+
 A noticeboard, except it's digital.
 
 ## Usage
