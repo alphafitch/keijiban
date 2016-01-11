@@ -3,6 +3,8 @@
       "editMode":false
    },
    "list":{
+      "title":"My awesome example noticeboard",
+      "description":"This awesome example shows a bunch of boards that demonstrate the cool features that Keijiban has.",
       "maxWidth":3,
       "maxHeight":3,
       "showDescription":true

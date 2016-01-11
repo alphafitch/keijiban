@@ -13,18 +13,26 @@
             </md-toolbar>
 
             <div layout="row" layout-align="center" layout-wrap>
+                <div flex="75" class="center">
+                    <h1>{{list.title}}</h1>
+                    <p>{{list.description}}</p>
+                </div>
+            </div>
+
+            <div layout="row" layout-align="center end" layout-wrap>
                 <div flex="100" class="center">
                     <img src="assets/img/large-logo.png">
                 </div>
                 <div flex="75" class="center">
                     <md-button class="md-primary" ng-href="https://github.com/alphafitch/keijiban" target="_blank">
-                        <i class="fa fa-code-fork"></i>
-                        <span>{{bower.version}}</span>
-                        <i class="fa fa-github"></i>
+                        <span class="flex-center">
+                            <i class="fa fa-github fa-3x"></i>
+                        </span>
                     </md-button>
                 </div>
                 <div flex="75" class="center">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aperiam vitae, porro, consequatur eveniet fugit, libero architecto perferendis similique possimus sapiente illum? Libero inventore id est, nam ab vitae. Maxime.</p>
+                    <i class="fa fa-code-fork"></i>
+                    <span>v{{bower.version}}</span>
                 </div>
             </div>
 
