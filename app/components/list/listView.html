@@ -1,7 +1,6 @@
-<!-- {{ chunks }} -->
-<section id="list">
-    <div layout-sm="column" layout="row" ng-repeat="chunk in chunks" layout-wrap class="aaa">
-        <div class="board-tile flex-center" ng-repeat="board in chunk" ng-style="{ 'background-color':board.bgColour }" flex ng-click="goToSelection(board)">
+<section id="list" layout="row" layout-wrap>
+    <div layout="row" layout-wrap ng-repeat="chunk in chunks">
+        <div layout="row" layout-wrap class="board-tile flex-center" ng-repeat="board in chunk" ng-style="{ 'background-color':board.bgColour }" flex ng-click="goToSelection(board)">
             <h2 class="md-headline board-name">{{board.header}}</h2>
             <span ng-if="list.showDescription">
                 <h2 class="md-subhead board-subject">{{board.description.short | stripHyphen | titleCase}}</h2>
