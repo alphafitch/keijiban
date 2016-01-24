@@ -19,7 +19,5 @@ branches:
 branches:
   only:
     - master
-    - stable
     - develop
     - /^feature-.*$/
-    - gulp_minify_artefact
