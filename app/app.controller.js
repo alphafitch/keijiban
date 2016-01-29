@@ -17,18 +17,23 @@ keijibanApp.controller('appController', function($scope, $http, $location, $mdSi
         // Calculates the size of the sub array in a 2D 'chunked' array
         function baseSlice(array, start, end) {
             var index = -1,
-                length = array.length;
+                length = array.length,
+                result = 0;
 
             if (start < 0) {
                 start = -start > length ? 0 : (length + start);
             }
+
             end = end > length ? length : end;
+
             if (end < 0) {
                 end += length;
             }
+
             length = start > end ? 0 : ((end - start) >>> 0);
             start >>>= 0;
-            var result = Array(length);
+            result = Array(length);
+
             while (++index < length) {
                 result[index] = array[index + start];
             }
@@ -38,15 +43,17 @@ keijibanApp.controller('appController', function($scope, $http, $location, $mdSi
 
         // A function that converts a normal array into a 2D array
         function chunk(array, size) {
+            var length = array ? array.length : 0,
+                index = 0,
+                resIndex = -1,
+                result = Array(Math.ceil(length / size));
 
             size = Math.max(size, 0);
-            var length = array ? array.length : 0;
+
             if (!length || size < 1) {
                 return [];
             }
-            var index = 0,
-                resIndex = -1,
-                result = Array(Math.ceil(length / size));
+
             while (index < length) {
                 result[++resIndex] = baseSlice(array, index, (index += size));
             }
