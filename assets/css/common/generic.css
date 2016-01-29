@@ -9,6 +9,7 @@
     display: flex;
     -ms-flex-pack: center;
     -ms-flex-align: center;
+    text-align: center;
     -webkit-align-items: center;
             align-items: center;
     -webkit-box-align: center;
@@ -25,19 +26,7 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 main {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display:    -moz-box;
-    display: -ms-flexbox;
-    display:         flex;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
     height: 100%;
-    -webkit-box-direction: normal;
-       -moz-box-direction: normal;
-    -webkit-box-orient: vertical;
-       -moz-box-orient: vertical;
 }
 md-sidenav {
     bottom: auto;
@@ -50,4 +39,7 @@ md-sidenav.full-height {
 }
 md-backdrop {
     position: fixed;
+}
+.full-width {
+    width: 100%;
 }

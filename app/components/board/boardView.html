@@ -1,21 +1,20 @@
-<header ng-style="{ 'background-color':currentBoard.bgColour }">
-    <div layout="row" layout-align="center">
-        <div class="flex" flex-sm="80" flex-gt-sm="60">
-            <h1 class="center md-display-3">{{currentBoard.header}}</h1>
-            <h3 class="center md-headline">{{currentBoard.description.short}}</h3>
+<div layout="column">
+    <header ng-style="{ 'background-color':currentBoard.bgColour }">
+        <div layout="row" layout-align="center">
+            <div class="flex" flex-sm="80" flex-gt-sm="60">
+                <h1 class="center md-display-3">{{currentBoard.header}}</h1>
+                <h3 class="center md-headline">{{currentBoard.description.short}}</h3>
+            </div>
         </div>
-    </div>
-</header>
-
-<section layout="row" layout-align="center">
-    <div class="flex" flex-sm="80" flex-gt-sm="60">
-        <div ng-if="modules.description.included" ng-include="'app/components/modules/descriptionView.html'"></div>
-        <div ng-if="modules.topics.included" ng-include="'app/components/modules/topicsView.html'"></div>
-        <div ng-if="modules.event.included" ng-include="'app/components/modules/eventView.html'"></div>
-        <div ng-if="modules.venue.included" ng-include="'app/components/modules/venueView.html'"></div>
-    </div>
-</section>
-
-<footer ng-if="modules.contact.included" ng-include="'app/components/modules/contactView.html'" ng-style="{ 'background-color':currentBoard.bgColour }"></footer>
-
-<list-button></list-button>
+    </header>
+    <section layout="row" layout-align="center">
+        <div class="flex" flex-sm="80" flex-gt-sm="60">
+            <div ng-if="modules.description.included" ng-include="'app/components/modules/descriptionView.html'"></div>
+            <div ng-if="modules.topics.included" ng-include="'app/components/modules/topicsView.html'"></div>
+            <div ng-if="modules.event.included" ng-include="'app/components/modules/eventView.html'"></div>
+            <div ng-if="modules.venue.included" ng-include="'app/components/modules/venueView.html'"></div>
+        </div>
+    </section>
+    <footer ng-if="modules.contact.included" ng-include="'app/components/modules/contactView.html'" ng-style="{ 'background-color':currentBoard.bgColour }"></footer>
+    <list-button></list-button>
+</div>
