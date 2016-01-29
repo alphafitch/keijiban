@@ -1,4 +1,4 @@
-keijibanApp.controller('listController', function($scope, $rootScope, $location) {
+keijibanApp.controller('boardController', function($scope, $rootScope, $location) {
 
     $scope.goToSelection = function(selection) {
         $rootScope.currentSelection = $scope.boards.indexOf(selection);
