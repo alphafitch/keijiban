@@ -2,6 +2,10 @@
 
 A noticeboard, except it's digital.
 
+ * Build your board to display all your notices in a custom sized list.
+ * Choose the information you want to display on the boards by selecting the modules you want to include.
+ * Activate edit mode to change the information show on each notice.
+
 ## Build Status
 
 * Master [![Build Status](https://travis-ci.org/dlgdigitalservices/keijiban.svg?branch=master)](https://travis-ci.org/dlgdigitalservices/keijiban)
