@@ -1,11 +1,13 @@
-<section id="list" layout="row" layout-wrap>
-    <div layout="row" layout-wrap ng-repeat="chunk in chunks">
-        <div layout="row" layout-wrap class="board-tile flex-center" ng-repeat="board in chunk" ng-style="{ 'background-color':board.bgColour }" flex ng-click="goToSelection(board)">
-            <h2 class="md-headline board-name">{{board.header}}</h2>
-            <span ng-if="list.showDescription">
-                <h2 class="md-subhead board-subject">{{board.description.short | stripHyphen | titleCase}}</h2>
-            </span>
+<div layout="column" class="full-width">
+    <section id="list" layout="row" layout-wrap>
+        <div layout="row" layout-wrap class="full-width" ng-repeat="chunk in chunks">
+            <div layout="row" layout-wrap class="board-tile flex-center" ng-repeat="board in chunk" ng-style="{ 'background-color':board.bgColour }" flex ng-click="goToSelection(board)">
+                <h2 class="md-headline board-name full-width">{{board.header}}</h2>
+                <div ng-if="list.showDescription">
+                    <h2 class="md-subhead board-subject full-width">{{board.description.short | stripHyphen | titleCase}}</h2>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
+</div>
 <info-menu></info-menu>

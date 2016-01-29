@@ -9,6 +9,7 @@
     display: flex;
     -ms-flex-pack: center;
     -ms-flex-align: center;
+    text-align: center;
     -webkit-align-items: center;
             align-items: center;
     -webkit-box-align: center;
@@ -38,4 +39,7 @@ md-sidenav.full-height {
 }
 md-backdrop {
     position: fixed;
+}
+.full-width {
+    width: 100%;
 }
