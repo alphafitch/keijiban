@@ -9,8 +9,8 @@ keijibanApp.directive('infoMenu', function() {
 
 keijibanApp.directive('listButton', function() {
     return {
-        templateUrl: 'app/common/listButton/listButtonView.html',
-        controller: 'listButtonController'
+        templateUrl: 'app/common/boardButton/boardButtonView.html',
+        controller: 'boardButtonController'
     };
 });
 
