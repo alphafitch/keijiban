@@ -7,13 +7,18 @@ keijibanApp.controller('appController', function($scope, $http, $location, $mdSi
 
     // Load all the required config from the master JSON file
     $http.get('app/app.config.json').then(function(response) {
+
+        // Set scope variables using the config data
         $scope.settings = response.data.settings;
         $scope.list = response.data.list;
         $scope.modules = response.data.boards.modules;
         $scope.boards = response.data.boards.data;
+
+        // Calculates the size of the sub array in a 2D 'chunked' array
         function baseSlice(array, start, end) {
             var index = -1,
                 length = array.length;
+
             if (start < 0) {
                 start = -start > length ? 0 : (length + start);
             }
@@ -27,9 +32,13 @@ keijibanApp.controller('appController', function($scope, $http, $location, $mdSi
             while (++index < length) {
                 result[index] = array[index + start];
             }
+
             return result;
         }
+
+        // A function that converts a normal array into a 2D array
         function chunk(array, size) {
+
             size = Math.max(size, 0);
             var length = array ? array.length : 0;
             if (!length || size < 1) {
@@ -41,8 +50,11 @@ keijibanApp.controller('appController', function($scope, $http, $location, $mdSi
             while (index < length) {
                 result[++resIndex] = baseSlice(array, index, (index += size));
             }
+
             return result;
-        };
+        }
+
+        // Chunk up the list of boards so that the grid can be displayed to match the config
         $scope.chunks = chunk($scope.boards, $scope.list.maxWidth);
     });
 
