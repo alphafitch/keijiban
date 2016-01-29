@@ -4,9 +4,9 @@ A noticeboard, except it's digital.
 
 ## Build Status
 
-* Master [![Build Status](https://travis-ci.org/alphafitch/keijiban.svg?branch=master)](https://travis-ci.org/alphafitch/keijiban)
-* Develop [![Build Status](https://travis-ci.org/alphafitch/keijiban.svg?branch=develop)](https://travis-ci.org/alphafitch/keijiban)
-* See all branches on [the Travis CI page](https://travis-ci.org/alphafitch/keijiban/branches)
+* Master [![Build Status](https://travis-ci.org/dlgdigitalservices/keijiban.svg?branch=master)](https://travis-ci.org/dlgdigitalservices/keijiban)
+* Develop [![Build Status](https://travis-ci.org/dlgdigitalservices/keijiban.svg?branch=develop)](https://travis-ci.org/dlgdigitalservices/keijiban)
+* See all branches on [the Travis CI page](https://travis-ci.org/dlgdigitalservices/keijiban/branches)
 
 ## Usage
 
@@ -26,12 +26,12 @@ Use your board to display a list of notices about groups, events or anything els
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request!
 
-## Authors
+## Creators
 
 * Mohamed Kherroubi [@mkherroubi93](https://twitter.com/mkherroubi93)
 * Christopher Fisher [@alphafitch](https://twitter.com/alphafitch)
 
-## Contributors
+## Key Contributors
 
 * Matthias Bremser
 
