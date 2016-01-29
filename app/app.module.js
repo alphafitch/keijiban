@@ -1,16 +1,18 @@
 var keijibanApp = angular.module('keijiban', ['ngMaterial', 'ngRoute']);
 
-keijibanApp.directive('infoMenu', function() {
-    return {
-        templateUrl: 'app/common/infoMenu/infoMenuView.html',
-        controller: 'infoMenuController'
-    };
-});
+// Buttons for navigation and showing extra menus
 
 keijibanApp.directive('boardButton', function() {
     return {
         templateUrl: 'app/common/boardButton/boardButtonView.html',
         controller: 'boardButtonController'
+    };
+});
+
+keijibanApp.directive('infoMenu', function() {
+    return {
+        templateUrl: 'app/common/infoMenu/infoMenuView.html',
+        controller: 'infoMenuController'
     };
 });
 
@@ -20,6 +22,8 @@ keijibanApp.directive('editMenu', function() {
         controller: 'editMenuController'
     };
 });
+
+// Filters for useful reusable behaviour
 
 keijibanApp.filter('stripHyphen', function() {
     return function(string) {
