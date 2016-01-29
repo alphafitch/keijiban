@@ -12,10 +12,6 @@ A noticeboard, except it's digital.
 * Develop [![Build Status](https://travis-ci.org/dlgdigitalservices/keijiban.svg?branch=develop)](https://travis-ci.org/dlgdigitalservices/keijiban)
 * See all branches on [the Travis CI page](https://travis-ci.org/dlgdigitalservices/keijiban/branches)
 
-## Usage
-
-Use your board to display a list of notices about groups, events or anything else you want.
-
 ## Setup
 
 1. Download the latest version.
