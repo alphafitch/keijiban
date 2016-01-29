@@ -7,7 +7,7 @@ keijibanApp.directive('infoMenu', function() {
     };
 });
 
-keijibanApp.directive('listButton', function() {
+keijibanApp.directive('boardButton', function() {
     return {
         templateUrl: 'app/common/boardButton/boardButtonView.html',
         controller: 'boardButtonController'
