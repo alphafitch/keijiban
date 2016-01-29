@@ -1,4 +1,4 @@
-keijibanApp.controller('boardController', function($scope, $rootScope) {
+keijibanApp.controller('noticeController', function($scope, $rootScope) {
 
     $scope.currentBoard = $scope.boards[$rootScope.currentSelection];
 
