@@ -1,6 +1,5 @@
 section img {
-    margin-top: 25px;
-    width: 250px;
+    max-width: 100px;
     height: auto;
 }
 section#information {

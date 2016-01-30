@@ -8,8 +8,11 @@
     <section layout="row" flex>
         <md-sidenav class="md-sidenav-left md-whiteframe-z2 full-height" md-component-id="infoMenu">
 
-            <md-toolbar>
-                <h1 class="md-toolbar-tools">Info</h1>
+            <md-toolbar layout="row">
+                <h1 flex="90" class="md-toolbar-tools">Info</h1>
+                <md-button flex="10" class="md-toolbar-tools" ng-click="toggleInfoMenu()">
+                    <i class="fa fa-times"></i>
+                </md-button>
             </md-toolbar>
 
             <div layout="row" layout-align="center" layout-wrap>
@@ -20,20 +23,18 @@
             </div>
 
             <div layout="row" layout-align="center end" layout-wrap>
-                <div flex="100" class="center">
+
                     <img src="assets/img/large-logo.png">
-                </div>
-                <div flex="75" class="center">
+
                     <md-button class="md-primary" ng-href="https://github.com/alphafitch/keijiban" target="_blank" aria-label="A link to the GitHub page for Keijiban">
                         <span class="flex-center">
                             <i class="fa fa-github fa-3x"></i>
                         </span>
                     </md-button>
-                </div>
-                <div flex="75" class="center">
+
                     <i class="fa fa-code-fork"></i>
                     <span>v{{bower.version}}</span>
-                </div>
+
             </div>
 
         </md-sidenav>
