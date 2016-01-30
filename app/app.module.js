@@ -23,6 +23,38 @@ keijibanApp.directive('editMenu', function() {
     };
 });
 
+// Modules which are reusable building blocks for notices
+
+keijibanApp.directive('contactModule', function() {
+    return {
+        templateUrl: 'app/common/noticeModules/contact/contactView.html'
+    };
+});
+
+keijibanApp.directive('descriptionModule', function() {
+    return {
+        templateUrl: 'app/common/noticeModules/description/descriptionView.html'
+    };
+});
+
+keijibanApp.directive('eventModule', function() {
+    return {
+        templateUrl: 'app/common/noticeModules/event/eventView.html'
+    };
+});
+
+keijibanApp.directive('topicsModule', function() {
+    return {
+        templateUrl: 'app/common/noticeModules/topics/topicsView.html'
+    };
+});
+
+keijibanApp.directive('venueModule', function() {
+    return {
+        templateUrl: 'app/common/noticeModules/venue/venueView.html'
+    };
+});
+
 // Filters for useful reusable behaviour
 
 keijibanApp.filter('stripHyphen', function() {
