@@ -1,5 +1,5 @@
 <div ng-click="toggleInfoMenu()" ng-hide="isOpen()">
-    <md-button class="md-fab md-primary fixed bottom left" aria-label="Go to info button">
+    <md-button class="md-fab md-primary fixed bottom left" aria-label="Open info section">
         <i class="fa fa-2x fa-info"></i>
     </md-button>
 </div>
@@ -10,7 +10,7 @@
 
             <md-toolbar layout="row">
                 <h1 flex="90" class="md-toolbar-tools">Info</h1>
-                <md-button flex="10" class="md-toolbar-tools" ng-click="toggleInfoMenu()">
+                <md-button flex="10" class="md-toolbar-tools" ng-click="toggleInfoMenu()" aria-label="Close info section">
                     <i class="fa fa-times"></i>
                 </md-button>
             </md-toolbar>
