@@ -11,7 +11,7 @@
         <section layout="row" flex>
             <md-sidenav class="md-sidenav-right md-whiteframe-z2" md-component-id="editMenu">
 
-                <md-toolbar ng-style="{ 'background-color':currentBoard.bgColour }">
+                <md-toolbar ng-style="{ 'background-color':currentNotice.bgColour }">
                     <h1 class="md-toolbar-tools">Edit</h1>
                 </md-toolbar>
 
@@ -20,28 +20,28 @@
                     <h3 class="md-headline">Basic Info</h3>
                     <md-input-container>
                         <label>Name</label>
-                        <input ng-model="currentBoard.header">
+                        <input ng-model="currentNotice.header">
                     </md-input-container>
                     <md-input-container>
                         <label>Primary colour</label>
-                        <input ng-model="currentBoard.bgColour">
+                        <input ng-model="currentNotice.bgColour">
                     </md-input-container>
 
                     <span ng-if="modules.description.included">
                         <h3 class="md-headline">Board Description</h3>
                         <md-input-container>
                             <label>Short description</label>
-                            <input ng-model="currentBoard.description.short">
+                            <input ng-model="currentNotice.description.short">
                         </md-input-container>
                         <md-input-container>
                             <label>Long description</label>
-                            <textarea ng-model="currentBoard.description.long" rows="4"></textarea>
+                            <textarea ng-model="currentNotice.description.long" rows="4"></textarea>
                         </md-input-container>
                     </span>
 
                     <span ng-if="modules.topics.included">
                         <h3 class="md-headline">Topic Info</h3>
-                        <span ng-repeat="topic in currentBoard.topics">
+                        <span ng-repeat="topic in currentNotice.topics">
                             <md-input-container>
                                 <label>Topic Header</label>
                                 <input ng-model="topic.header">
@@ -57,15 +57,15 @@
                         <h3 class="md-headline">Event Info</h3>
                         <md-input-container>
                             <label>Date</label>
-                            <input ng-model="currentBoard.event.date">
+                            <input ng-model="currentNotice.event.date">
                         </md-input-container>
                         <md-input-container>
                             <label>Start Time</label>
-                            <input ng-model="currentBoard.event.startTime">
+                            <input ng-model="currentNotice.event.startTime">
                         </md-input-container>
                         <md-input-container>
                             <label>End Time</label>
-                            <input ng-model="currentBoard.event.endTime">
+                            <input ng-model="currentNotice.event.endTime">
                         </md-input-container>
                     </span>
 
@@ -73,7 +73,7 @@
                         <h3 class="md-headline">Venue Info</h3>
                         <md-input-container>
                             <label>Location</label>
-                            <input ng-model="currentBoard.venue.location">
+                            <input ng-model="currentNotice.venue.location">
                         </md-input-container>
                     </span>
 
@@ -81,11 +81,11 @@
                         <h3 class="md-headline">Contact Info</h3>
                         <md-input-container>
                             <label>Contact Name</label>
-                            <input ng-model="currentBoard.owner.name">
+                            <input ng-model="currentNotice.owner.name">
                         </md-input-container>
                         <md-input-container>
                             <label>Contact Email</label>
-                            <input ng-model="currentBoard.owner.email">
+                            <input ng-model="currentNotice.owner.email">
                         </md-input-container>
                     </span>
 

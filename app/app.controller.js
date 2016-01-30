@@ -10,9 +10,9 @@ keijibanApp.controller('appController', function($scope, $http, $location, $mdSi
 
         // Set scope variables using the config data
         $scope.settings = response.data.settings;
-        $scope.list = response.data.list;
-        $scope.modules = response.data.boards.modules;
-        $scope.boards = response.data.boards.data;
+        $scope.board = response.data.board;
+        $scope.modules = response.data.notices.modules;
+        $scope.notices = response.data.notices.data;
 
         // Calculates the size of the sub array in a 2D 'chunked' array
         function baseSlice(array, start, end) {
@@ -62,12 +62,12 @@ keijibanApp.controller('appController', function($scope, $http, $location, $mdSi
         }
 
         // Chunk up the list of boards so that the grid can be displayed to match the config
-        $scope.chunks = chunk($scope.boards, $scope.list.maxWidth);
+        $scope.chunks = chunk($scope.notices, $scope.board.maxWidth);
     });
 
-    // On load return to the list page becuase the app is stateful
+    // On load return to the board page becuase the app is stateful
     window.onload = function() {
-        $location.url("list");
+        $location.url("board");
     };
 
     // Generic function to build a toggler that opens/closes the sidenavs

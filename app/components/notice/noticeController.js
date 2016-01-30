@@ -1,12 +1,12 @@
 keijibanApp.controller('noticeController', function($scope, $rootScope) {
 
-    $scope.currentBoard = $scope.boards[$rootScope.currentSelection];
+    $scope.currentNotice = $scope.notices[$rootScope.currentSelection];
 
     $scope.buildEventText = function() {
         var defaultText = $scope.modules.event.text,
-            eventDate = $scope.currentBoard.event.date,
-            eventStart = $scope.currentBoard.event.startTime,
-            eventEnd = $scope.currentBoard.event.endTime;
+            eventDate = $scope.currentNotice.event.date,
+            eventStart = $scope.currentNotice.event.startTime,
+            eventEnd = $scope.currentNotice.event.endTime;
 
             defaultText = defaultText.replace("{date}", eventDate);
             defaultText = defaultText.replace("{startTime}", eventStart);
@@ -17,7 +17,7 @@ keijibanApp.controller('noticeController', function($scope, $rootScope) {
 
     $scope.buildVenueText = function() {
         var defaultText = $scope.modules.venue.text,
-            venueLocation = $scope.currentBoard.venue.location;
+            venueLocation = $scope.currentNotice.venue.location;
 
             defaultText = defaultText.replace("{location}", venueLocation);
 
