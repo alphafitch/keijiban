@@ -4,7 +4,7 @@ var minify = require('gulp-minify');
 
 // default gulp task
 gulp.task('default', ['zip'], function() {
-  
+
 });
 
 gulp.task('zip', ['minify'], function() {
@@ -19,5 +19,5 @@ gulp.task('minify', function() {
         exclude: ['tasks'],
         ignoreFiles: ['.combo.js', '-min.js']
     }))
-    .pipe(gulp.dest('dist'))
+    .pipe(gulp.dest('dist'));
 });
