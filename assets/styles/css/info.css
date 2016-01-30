@@ -2,12 +2,9 @@ section img {
     max-width: 72px;
     height: auto;
 }
-section#information {
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-       -moz-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-         -o-transform: translateY(-50%);
-            transform: translateY(-50%);
+#info-text {
+    height: 80%;
+}
+#info-footer {
+    height: 10%;
 }
