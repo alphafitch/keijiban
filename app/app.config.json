@@ -4,7 +4,7 @@
    },
    "board":{
       "title":"My awesome example noticeboard",
-      "description":"This awesome example shows a bunch of boards that demonstrate the cool features that Keijiban has.",
+      "description":"This awesome example board shows a bunch of notices that demonstrate the cool features that Keijiban has.",
       "maxWidth":3,
       "maxHeight":3,
       "showDescription":true
@@ -37,7 +37,7 @@
       },
       "data":[
          {
-            "header":"Board Title/Name etc.",
+            "header":"Notice Title/Name etc.",
             "bgColour":"#1abc9c",
             "description":{
                "short":"Short description, subject info, etc",
@@ -62,12 +62,12 @@
                "location":"4 Privet Drive"
             },
             "owner":{
-               "name":"Board owner",
-               "email":"board.owner@keijiban.co.uk"
+               "name":"Notice owner",
+               "email":"Notice.owner@keijiban.co.uk"
             }
          },
          {
-            "header":"Board Title/Name etc.",
+            "header":"Notice Title/Name etc.",
             "bgColour":"#2ecc71",
             "description":{
                "short":"Short description, subject info, etc",
@@ -92,12 +92,12 @@
                "location":"4 Privet Drive"
             },
             "owner":{
-               "name":"Board owner",
-               "email":"board.owner@keijiban.co.uk"
+               "name":"Notice owner",
+               "email":"notice.owner@keijiban.co.uk"
             }
          },
          {
-            "header":"Board Title/Name etc.",
+            "header":"Notice Title/Name etc.",
             "bgColour":"#3498db",
             "description":{
                "short":"Short description, subject info, etc",
@@ -122,12 +122,12 @@
                "location":"4 Privet Drive"
             },
             "owner":{
-               "name":"Board owner",
-               "email":"board.owner@keijiban.co.uk"
+               "name":"Notice owner",
+               "email":"nNoticeotice.owner@keijiban.co.uk"
             }
          },
          {
-            "header":"Board Title/Name etc.",
+            "header":"NoticeNotice Title/Name etc.",
             "bgColour":"#f1c40f",
             "description":{
                "short":"Short description, subject info, etc",
@@ -152,12 +152,12 @@
                "location":"4 Privet Drive"
             },
             "owner":{
-               "name":"Board owner",
-               "email":"board.owner@keijiban.co.uk"
+               "name":"Notice owner",
+               "email":"notice.owner@keijiban.co.uk"
             }
          },
          {
-            "header":"Board Title/Name etc.",
+            "header":"Notice Title/Name etc.",
             "bgColour":"#e67e22",
             "description":{
                "short":"Short description, subject info, etc",
@@ -182,12 +182,12 @@
                "location":"4 Privet Drive"
             },
             "owner":{
-               "name":"Board owner",
-               "email":"board.owner@keijiban.co.uk"
+               "name":"Notice owner",
+               "email":"notice.owner@keijiban.co.uk"
             }
          },
          {
-            "header":"Board Title/Name etc.",
+            "header":"Notice Title/Name etc.",
             "bgColour":"#e74c3c",
             "description":{
                "short":"Short description, subject info, etc",
@@ -212,12 +212,12 @@
                "location":"4 Privet Drive"
             },
             "owner":{
-               "name":"Board owner",
-               "email":"board.owner@keijiban.co.uk"
+               "name":"Notice owner",
+               "email":"notice.owner@keijiban.co.uk"
             }
          },
          {
-            "header":"Board Title/Name etc.",
+            "header":"Notice Title/Name etc.",
             "bgColour":"#9b59b6",
             "description":{
                "short":"Short description, subject info, etc",
@@ -242,12 +242,12 @@
                "location":"4 Privet Drive"
             },
             "owner":{
-               "name":"Board owner",
-               "email":"board.owner@keijiban.co.uk"
+               "name":"Notice owner",
+               "email":"notice.owner@keijiban.co.uk"
             }
          },
          {
-            "header":"Board Title/Name etc.",
+            "header":"Notice Title/Name etc.",
             "bgColour":"#edafd7",
             "description":{
                "short":"Short description, subject info, etc",
@@ -272,12 +272,12 @@
                "location":"4 Privet Drive"
             },
             "owner":{
-               "name":"Board owner",
-               "email":"board.owner@keijiban.co.uk"
+               "name":"Notice owner",
+               "email":"notice.owner@keijiban.co.uk"
             }
          },
          {
-            "header":"Board Title/Name etc.",
+            "header":"Notice Title/Name etc.",
             "bgColour":"#34495e",
             "description":{
                "short":"Short description, subject info, etc",
@@ -302,8 +302,8 @@
                "location":"4 Privet Drive"
             },
             "owner":{
-               "name":"Board owner",
-               "email":"board.owner@keijiban.co.uk"
+               "name":"Notice owner",
+               "email":"notice.owner@keijiban.co.uk"
             }
          }
       ]
