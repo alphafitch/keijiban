@@ -6,7 +6,9 @@ node_js:
 before_script:
   - npm install gulp
   - npm install gulp-zip
-  - npm install gulp-minify
+  - npm install gulp-concat
+  - npm install gulp-rename
+  - npm install gulp-uglify
 script: gulp
 
 # blacklist
