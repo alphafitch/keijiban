@@ -8,9 +8,9 @@ A noticeboard, except it's digital.
 
 ## Build Status
 
-* Master [![Build Status](https://travis-ci.org/dlgdigitalservices/keijiban.svg?branch=master)](https://travis-ci.org/dlgdigitalservices/keijiban)
-* Develop [![Build Status](https://travis-ci.org/dlgdigitalservices/keijiban.svg?branch=develop)](https://travis-ci.org/dlgdigitalservices/keijiban)
-* See all branches on [the Travis CI page](https://travis-ci.org/dlgdigitalservices/keijiban/branches)
+* Master [![Build Status](https://travis-ci.org/alphafitch/keijiban.svg?branch=master)](https://travis-ci.org/alphafitch/keijiban)
+* Develop [![Build Status](https://travis-ci.org/alphafitch/keijiban.svg?branch=develop)](https://travis-ci.org/alphafitch/keijiban)
+* See all branches on [the Travis CI page](https://travis-ci.org/alphafitch/keijiban/branches)
 
 ## Setup
 
