@@ -22,7 +22,9 @@ var gulp = require("gulp"),
         // All scss files
         styles     : "src/assets/styles/*.scss",
         // All image files
-        images     : "src/assets/images/**/*.png"
+        images     : "src/assets/images/**/*.png",
+        // The config settings for the app
+        config     : "src/app/app.config.json"
     };
 
 // ---------- Code lint and tidy up tasks ----------
@@ -70,7 +72,7 @@ gulp.task("code-check", ["eslint", "scsslint"]);
 // ---------- Production build tasks ----------
 
 // Build an artefact and zip everything up
-gulp.task("build", ["scripts", "bower_components", "styles", "html", "images", "index", "misc"], function() {
+gulp.task("build", ["scripts", "bower_components", "styles", "html", "images", "index", "config", "misc"], function() {
   return gulp.src("dist/**/**")
     .pipe(zip("keijiban.zip"))
     .pipe(gulp.dest("dist"));
@@ -105,6 +107,12 @@ gulp.task("html", function() {
 gulp.task("images", function() {
   return gulp.src(paths.images)
     .pipe(gulp.dest("dist/src/assets/images/"));
+});
+
+// Move the app config into /dist
+gulp.task("config", function() {
+  return gulp.src(paths.config)
+    .pipe(gulp.dest("dist/src/app"));
 });
 
 // Move index.html into /dist and replace the filepaths as required
