@@ -20,7 +20,7 @@ var gulp = require("gulp"),
         // Only source JS files - for building the artefact
         appscripts : ["src/app/app.module.js", "src/app/**/*.js"],
         // All scss files
-        styles     : "src/assets/styles/*.scss",
+        styles     : "src/assets/styles/**/*.scss",
         // All image files
         images     : "src/assets/images/**/*.png",
         // The config settings for the app
