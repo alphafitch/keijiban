@@ -44,9 +44,9 @@ gulp.task("eslint", function() {
         "semi"   : [1, "always"]
     },
     globals : {
-        "angular" : true,
-        "appkit"  : true,
-        "require" : true
+        "angular"  : true,
+        "keijiban" : true,
+        "require"  : true
     }
   }))
   .pipe(eslint.format())
