@@ -1,56 +1,56 @@
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .flex-center {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-    -ms-flex-align: center;
-    text-align: center;
-    -webkit-align-items: center;
-            align-items: center;
-    -webkit-box-align: center;
-       -moz-box-align: center;
-    -webkit-box-pack: center;
-       -moz-box-pack: center;
-    -webkit-justify-content: center;
-            justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  -ms-flex-align: center;
+  text-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-align: center;
+     -moz-box-align: center;
+  -webkit-box-pack: center;
+     -moz-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
 }
 
 hr {
-    height: 0;
-    border: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.10);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  height: 0;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.10);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 main {
-    height: 100%;
+  height: 100%;
 }
 
 md-sidenav {
-    bottom: auto;
-    min-width: 250px;
-    max-width: none;
-    width: 50%;
+  bottom: auto;
+  min-width: 250px;
+  max-width: none;
+  width: 50%;
 }
 
 md-sidenav.full-height {
-    bottom: 0;
+  bottom: 0;
 }
 
 md-backdrop {
-    position: fixed;
+  position: fixed;
 }
 
 .full-width {
-    width: 100%;
+  width: 100%;
 }
 
 .text-right {
-    text-align: right;
+  text-align: right;
 }

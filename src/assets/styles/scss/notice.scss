@@ -1,22 +1,22 @@
 header, footer {
-    color: #ecf0f1;
-    -webkit-box-flex: 0;
-       -moz-box-flex: 0;
-    -webkit-flex: none;
-        -ms-flex: none;
-            flex: none;
+  color: #ecf0f1;
+  -webkit-box-flex: 0;
+     -moz-box-flex: 0;
+  -webkit-flex: none;
+      -ms-flex: none;
+          flex: none;
 }
 footer a {
-    border-bottom-width: 1px;
-    border-bottom-style: dotted;
-    border-bottom-color: #ecf0f1;
-    color: #ecf0f1;
-    text-decoration: none;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  border-bottom-color: #ecf0f1;
+  color: #ecf0f1;
+  text-decoration: none;
 }
 section {
-    -webkit-box-flex: 1;
-       -moz-box-flex: 1;
-    -webkit-flex: 1 0 auto;
-        -ms-flex: 1 0 auto;
-            flex: 1 0 auto;
+  -webkit-box-flex: 1;
+     -moz-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
 }
