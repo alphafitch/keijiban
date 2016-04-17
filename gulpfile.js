@@ -44,9 +44,13 @@ gulp.task("eslint", function() {
         "semi"   : [1, "always"]
     },
     globals : {
-        "angular"  : true,
-        "keijiban" : true,
-        "require"  : true
+        "angular"      : true,
+        "keijiban"     : true,
+        "window"       : true,
+        "baseSlice"    : true,
+        "chunk"        : true,
+        "buildToggler" : true,
+        "require"      : true
     }
   }))
   .pipe(eslint.format())
