@@ -104,7 +104,7 @@ gulp.task("html", function() {
 // Move the images into /dist
 gulp.task("images", function() {
   return gulp.src(paths.images)
-    .pipe(gulp.dest("dist/assets/img"));
+    .pipe(gulp.dest("dist/src/assets/images/"));
 });
 
 // Move index.html into /dist and replace the filepaths as required
