@@ -1,4 +1,4 @@
-keijibanApp.controller("editMenuController", function($scope, $mdSidenav) {
+keijiban.controller("editMenuController", function($scope, $mdSidenav) {
 
     $scope.toggleEditMenu = buildToggler("editMenu");
 

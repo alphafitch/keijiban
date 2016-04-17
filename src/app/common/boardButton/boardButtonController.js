@@ -1,4 +1,4 @@
-keijibanApp.controller("boardButtonController", function($scope, $location) {
+keijiban.controller("boardButtonController", function($scope, $location) {
 
     $scope.goToList = function() {
         $location.url("board");

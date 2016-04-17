@@ -1,22 +1,22 @@
-var keijibanApp = angular.module("keijiban", ["ngMaterial", "ngRoute"]);
+var keijiban = angular.module("keijiban", ["ngMaterial", "ngRoute"]);
 
 // Buttons for navigation and showing extra menus
 
-keijibanApp.directive("boardButton", function() {
+keijiban.directive("boardButton", function() {
     return {
         templateUrl: "src/app/common/boardButton/boardButtonView.html",
         controller: "boardButtonController"
     };
 });
 
-keijibanApp.directive("infoMenu", function() {
+keijiban.directive("infoMenu", function() {
     return {
         templateUrl: "src/app/common/infoMenu/infoMenuView.html",
         controller: "infoMenuController"
     };
 });
 
-keijibanApp.directive("editMenu", function() {
+keijiban.directive("editMenu", function() {
     return {
         templateUrl: "src/app/common/editMenu/editMenuView.html",
         controller: "editMenuController"
@@ -25,31 +25,31 @@ keijibanApp.directive("editMenu", function() {
 
 // Modules which are reusable building blocks for notices
 
-keijibanApp.directive("contactModule", function() {
+keijiban.directive("contactModule", function() {
     return {
         templateUrl: "src/app/common/noticeModules/contact/contactView.html"
     };
 });
 
-keijibanApp.directive("descriptionModule", function() {
+keijiban.directive("descriptionModule", function() {
     return {
         templateUrl: "src/app/common/noticeModules/description/descriptionView.html"
     };
 });
 
-keijibanApp.directive("eventModule", function() {
+keijiban.directive("eventModule", function() {
     return {
         templateUrl: "src/app/common/noticeModules/event/eventView.html"
     };
 });
 
-keijibanApp.directive("topicsModule", function() {
+keijiban.directive("topicsModule", function() {
     return {
         templateUrl: "src/app/common/noticeModules/topics/topicsView.html"
     };
 });
 
-keijibanApp.directive("venueModule", function() {
+keijiban.directive("venueModule", function() {
     return {
         templateUrl: "src/app/common/noticeModules/venue/venueView.html"
     };
@@ -57,13 +57,13 @@ keijibanApp.directive("venueModule", function() {
 
 // Filters for useful reusable behaviour
 
-keijibanApp.filter("stripHyphen", function() {
+keijiban.filter("stripHyphen", function() {
     return function(string) {
         return string.replace(/-/g, " ");
     };
 });
 
-keijibanApp.filter("titleCase", function() {
+keijiban.filter("titleCase", function() {
     return function(string) {
         string = string || "";
         return string.replace(/\w\S*/g, function(txt) {
@@ -72,7 +72,7 @@ keijibanApp.filter("titleCase", function() {
     };
 });
 
-keijibanApp.filter("range", function() {
+keijiban.filter("range", function() {
     return function(input, total) {
         total = parseInt(total);
         for (var i=0; i<total; i++) {

@@ -1,4 +1,4 @@
-keijibanApp.controller("appController", function($scope, $http, $location, $mdSidenav) {
+keijiban.controller("appController", function($scope, $http, $location, $mdSidenav) {
 
     // Required for version info from the bower file
     $http.get("bower.json").then(function(response) {
