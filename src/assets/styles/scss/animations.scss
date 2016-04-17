@@ -6,19 +6,19 @@
   right: 0;
   top: 0;
 
-  .ng-enter {
+  &.ng-enter {
     opacity: 0;
   }
 
-  .ng-enter-active {
+  &.ng-enter-active {
     opacity: 1;
   }
 
-  .ng-leave {
+  &.ng-leave {
     opacity: 1;
   }
 
-  .ng-leave-active {
+  &.ng-leave-active {
     opacity: 0;
   }
 
