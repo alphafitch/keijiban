@@ -1,0 +1,25 @@
+header,
+footer {
+  -moz-box-flex: 0;
+  -webkit-box-flex: 0;
+  color: $light-grey;
+  -ms-flex: none;
+  -webkit-flex: none;
+  flex: none;
+}
+
+footer a {
+  border-bottom-color: $light-grey;
+  border-bottom-style: dotted;
+  border-bottom-width: 1px;
+  color: $light-grey;
+  text-decoration: none;
+}
+
+section {
+  -moz-box-flex: 1;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  -webkit-flex: 1 0 auto;
+  flex: 1 0 auto;
+}

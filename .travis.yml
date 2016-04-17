@@ -2,24 +2,24 @@ sudo: required
 language: node_js
 node_js:
   - "0.11"
-  - "0.10"
 before_script:
   - npm install gulp
+  - npm install gulp-clean
   - npm install gulp-zip
   - npm install gulp-concat
   - npm install gulp-rename
   - npm install gulp-uglify
-script: gulp
-
-# blacklist
-branches:
-  except:
-    - legacy
-    - experimental
-
-# whitelist
+  - npm install gulp-sass
+  - npm install gulp-cssnano
+  - npm install gulp-html-replace
+  - npm install gulp-eslint
+  - npm install gulp-scss-lint
+  - npm install gulp-bump
+  - npm install ruby
+  - gem install scss_lint
+script:
+  - gulp code-check
 branches:
   only:
     - master
     - develop
-    - /^feature-.*$/

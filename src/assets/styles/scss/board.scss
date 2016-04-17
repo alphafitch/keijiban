@@ -1,0 +1,10 @@
+.board-tile {
+  color: $light-grey;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.board-tile:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,50 @@
+.center {
+  text-align: center;
+}
+
+.flex-center {
+  -webkit-align-items: center;
+  align-items: center;
+  -moz-box-align: center;
+  -webkit-box-align: center;
+  -moz-box-pack: center;
+  -webkit-box-pack: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+main {
+  height: 100%;
+}
+
+md-sidenav {
+  bottom: auto;
+  max-width: none;
+  min-width: 250px;
+  width: 50%;
+
+  .full-height {
+    bottom: 0;
+  }
+
+}
+
+md-backdrop {
+  position: fixed;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.text-right {
+  text-align: right;
+}

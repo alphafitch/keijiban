@@ -1,12 +1,12 @@
-keijibanApp.controller('appController', function($scope, $http, $location, $mdSidenav) {
+keijiban.controller("appController", function($scope, $http, $location, $mdSidenav) {
 
     // Required for version info from the bower file
-    $http.get('bower.json').then(function(response) {
+    $http.get("bower.json").then(function(response) {
         $scope.bower = response.data;
     });
 
     // Load all the required config from the master JSON file
-    $http.get('app/app.config.json').then(function(response) {
+    $http.get("src/app/app.config.json").then(function(response) {
 
         // Set scope variables using the config data
         $scope.settings = response.data.settings;
@@ -18,7 +18,7 @@ keijibanApp.controller('appController', function($scope, $http, $location, $mdSi
         $scope.chunks = chunk($scope.notices, $scope.board.maxWidth);
     });
 
-    // Calculates the size of the sub array in a 2D 'chunked' array
+    // Calculates the size of the sub array in a 2D "chunked" array
     window.baseSlice = function(array, start, end) {
         var index = -1,
             length = array.length,
