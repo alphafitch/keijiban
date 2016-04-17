@@ -1,6 +1,7 @@
 .center {
     text-align: center;
 }
+
 .flex-center {
     display: -webkit-box;
     display: -webkit-flex;
@@ -19,30 +20,37 @@
     -webkit-justify-content: center;
             justify-content: center;
 }
+
 hr {
     height: 0;
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.10);
     border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
+
 main {
     height: 100%;
 }
+
 md-sidenav {
     bottom: auto;
     min-width: 250px;
     max-width: none;
     width: 50%;
 }
+
 md-sidenav.full-height {
     bottom: 0;
 }
+
 md-backdrop {
     position: fixed;
 }
+
 .full-width {
     width: 100%;
 }
+
 .text-right {
     text-align: right;
 }
