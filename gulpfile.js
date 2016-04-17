@@ -19,8 +19,10 @@ var gulp = require("gulp"),
         allscripts : ["src/app/**/*.js", "gulpfile.js"],
         // Only source JS files - for building the artefact
         appscripts : ["src/app/app.module.js", "src/app/**/*.js"],
-        // All scss files
-        styles     : "src/assets/styles/**/*.scss",
+        // All scss files - for linting
+        allstyles  : "src/assets/styles/**/*.scss",
+        // Only the main scss file - for building the artefact
+        appstyles  : "src/assets/styles/app.styles.scss",
         // All image files
         images     : "src/assets/images/**/*.png",
         // The config settings for the app
@@ -61,13 +63,13 @@ gulp.task("eslint", function() {
 
 // Check the SCSS code against scss-lint standards
 gulp.task("scsslint", function() {
-  return gulp.src(paths.styles)
+  return gulp.src(paths.allstyles)
     .pipe(scsslint())
     .pipe(scsslint.failReporter()); // Report failures in the console
 });
 
 // Combination task which checks the .js and .scss files against coding standards
-gulp.task("code-check", ["eslint", "scsslint"]);
+gulp.task("code-check", ["eslint"/**", scsslint"**/]);
 
 // ---------- Production build tasks ----------
 
@@ -90,7 +92,7 @@ gulp.task("scripts", function() {
 
 // Combine sccs into one file, compile into css, minify
 gulp.task("styles", function() {
-  return gulp.src(paths.styles)
+  return gulp.src(paths.appstyles)
     .pipe(sass().on("error", sass.logError)) // Log sass errors
     .pipe(concat("app.min.css"))
     .pipe(cssnano())
@@ -148,7 +150,7 @@ gulp.task("misc", function() {
 
 // Compiles scss into css without minifying so debugging is easier
 gulp.task("styles-dev", function() {
-  return gulp.src(paths.styles)
+  return gulp.src(paths.appstyles)
     .pipe(concat("app.scss"))
     .pipe(sass().on("error", sass.logError))
     .pipe(rename("app.styles.css"))
@@ -207,7 +209,7 @@ gulp.task("git-tag", function() {
 
 // Rerun tasks when a file changes, for local development
 gulp.task("watch", function() {
-  gulp.watch(paths.styles, ["styles-dev"]);
+  gulp.watch(paths.allstyles, ["styles-dev"]);
 });
 
 // ---------- Release tasks ----------
