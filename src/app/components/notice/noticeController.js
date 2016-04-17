@@ -1,4 +1,4 @@
-keijibanApp.controller('noticeController', function($scope, $rootScope) {
+keijibanApp.controller("noticeController", function($scope, $rootScope) {
 
     $scope.currentNotice = $scope.notices[$rootScope.currentSelection];
 

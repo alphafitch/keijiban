@@ -1,7 +1,7 @@
 <div layout="column" class="full-width">
     <section id="list" layout="row" layout-wrap>
         <div layout="row" layout-wrap class="full-width" ng-repeat="chunk in chunks">
-            <div layout="row" layout-wrap class="board-tile flex-center" ng-repeat="notice in chunk" ng-style="{ 'background-color':notice.bgColour }" flex ng-click="goToSelection(notice)">
+            <div layout="row" layout-wrap class="board-tile flex-center" ng-repeat="notice in chunk" ng-style="{ "background-color":notice.bgColour }" flex ng-click="goToSelection(notice)">
                 <h2 class="md-headline full-width">{{notice.header}}</h2>
                 <div ng-if="board.showDescription">
                     <h2 class="md-subhead full-width">{{notice.description.short | stripHyphen | titleCase}}</h2>

@@ -1,13 +1,13 @@
-keijibanApp.controller('editMenuController', function($scope, $mdSidenav) {
+keijibanApp.controller("editMenuController", function($scope, $mdSidenav) {
 
-    $scope.toggleEditMenu = buildToggler('editMenu');
+    $scope.toggleEditMenu = buildToggler("editMenu");
 
     $scope.isOpenRight = function(){
-        return $mdSidenav('editMenu').isOpen();
+        return $mdSidenav("editMenu").isOpen();
     };
 
     $scope.close = function () {
-        $mdSidenav('editMenu').close();
+        $mdSidenav("editMenu").close();
     };
 
 });
