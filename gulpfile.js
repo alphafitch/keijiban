@@ -82,7 +82,7 @@ gulp.task("scripts", function() {
     .pipe(concat("app.js"))
     .pipe(gulp.dest("dist"))
     .pipe(rename("app.min.js"))
-    .pipe(uglify()) // Causes problems loading bower.json
+    //.pipe(uglify()) // Causes problems loading bower.json
     .pipe(gulp.dest("dist"));
 });
 
