@@ -24,7 +24,7 @@ var gulp = require("gulp"),
         // Only the main scss file - for building the artefact
         appstyles  : "src/assets/styles/app.styles.scss",
         // All image files
-        images     : "src/assets/images/**/*.png",
+        images     : "src/assets/images/**/*.*",
         // The config settings for the app
         config     : "src/app/app.config.json"
     };
