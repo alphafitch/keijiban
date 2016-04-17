@@ -4,21 +4,21 @@ var keijibanApp = angular.module('keijiban', ['ngMaterial', 'ngRoute']);
 
 keijibanApp.directive('boardButton', function() {
     return {
-        templateUrl: 'app/common/boardButton/boardButtonView.html',
+        templateUrl: 'src/app/common/boardButton/boardButtonView.html',
         controller: 'boardButtonController'
     };
 });
 
 keijibanApp.directive('infoMenu', function() {
     return {
-        templateUrl: 'app/common/infoMenu/infoMenuView.html',
+        templateUrl: 'src/app/common/infoMenu/infoMenuView.html',
         controller: 'infoMenuController'
     };
 });
 
 keijibanApp.directive('editMenu', function() {
     return {
-        templateUrl: 'app/common/editMenu/editMenuView.html',
+        templateUrl: 'src/app/common/editMenu/editMenuView.html',
         controller: 'editMenuController'
     };
 });
@@ -27,31 +27,31 @@ keijibanApp.directive('editMenu', function() {
 
 keijibanApp.directive('contactModule', function() {
     return {
-        templateUrl: 'app/common/noticeModules/contact/contactView.html'
+        templateUrl: 'src/app/common/noticeModules/contact/contactView.html'
     };
 });
 
 keijibanApp.directive('descriptionModule', function() {
     return {
-        templateUrl: 'app/common/noticeModules/description/descriptionView.html'
+        templateUrl: 'src/app/common/noticeModules/description/descriptionView.html'
     };
 });
 
 keijibanApp.directive('eventModule', function() {
     return {
-        templateUrl: 'app/common/noticeModules/event/eventView.html'
+        templateUrl: 'src/app/common/noticeModules/event/eventView.html'
     };
 });
 
 keijibanApp.directive('topicsModule', function() {
     return {
-        templateUrl: 'app/common/noticeModules/topics/topicsView.html'
+        templateUrl: 'src/app/common/noticeModules/topics/topicsView.html'
     };
 });
 
 keijibanApp.directive('venueModule', function() {
     return {
-        templateUrl: 'app/common/noticeModules/venue/venueView.html'
+        templateUrl: 'src/app/common/noticeModules/venue/venueView.html'
     };
 });
 
