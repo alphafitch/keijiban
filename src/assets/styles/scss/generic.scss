@@ -30,15 +30,14 @@ md-sidenav {
   max-width: none;
   min-width: 250px;
   width: 50%;
-
-  .full-height {
-    bottom: 0;
-  }
-
 }
 
 md-backdrop {
   position: fixed;
+}
+
+.full-height {
+  bottom: 0;
 }
 
 .full-width {
