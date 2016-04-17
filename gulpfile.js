@@ -69,7 +69,7 @@ gulp.task("scsslint", function() {
 });
 
 // Combination task which checks the .js and .scss files against coding standards
-gulp.task("code-check", ["eslint"/**", scsslint"**/]);
+gulp.task("code-check", ["eslint", "scsslint"]);
 
 // ---------- Production build tasks ----------
 
