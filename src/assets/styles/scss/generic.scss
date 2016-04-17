@@ -3,29 +3,29 @@
 }
 
 .flex-center {
+  -webkit-align-items: center;
+  align-items: center;
+  -moz-box-align: center;
+  -webkit-box-align: center;
+  -moz-box-pack: center;
+  -webkit-box-pack: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: center;
   -ms-flex-align: center;
-  text-align: center;
-  -webkit-align-items: center;
-          align-items: center;
-  -webkit-box-align: center;
-     -moz-box-align: center;
-  -webkit-box-pack: center;
-     -moz-box-pack: center;
+  -ms-flex-pack: center;
   -webkit-justify-content: center;
-          justify-content: center;
+  justify-content: center;
+  text-align: center;
 }
 
 hr {
-  height: 0;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.10);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  border-bottom: 1px solid rgba(255, 255, 255, .25);
+  border-top: 1px solid rgba(0, 0, 0, .10);
+  height: 0;
 }
 
 main {
@@ -34,13 +34,14 @@ main {
 
 md-sidenav {
   bottom: auto;
-  min-width: 250px;
   max-width: none;
+  min-width: 250px;
   width: 50%;
-}
 
-md-sidenav.full-height {
-  bottom: 0;
+  .full-height {
+    bottom: 0;
+  }
+
 }
 
 md-backdrop {
