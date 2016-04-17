@@ -32,7 +32,9 @@
         <!-- Stylesheets -->
         <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
         <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+        <!-- build:css -->
         <link rel="stylesheet" href="src/assets/styles/app.styles.css">
+        <!-- endbuild -->
     </head>
     <body>
         <main ng-view class="fade" flex layout="row"></main>
@@ -42,6 +44,7 @@
         <script src="bower_components/angular-aria/angular-aria.min.js"></script>
         <script src="bower_components/angular-material/angular-material.min.js"></script>
         <script src="bower_components/angular-route/angular-route.min.js"></script>
+        <!-- build:js -->
         <!-- Application scripts -->
         <script src="src/app/app.module.js"></script>
         <script src="src/app/app.routes.js"></script>
@@ -53,5 +56,6 @@
         <!-- Component controllers -->
         <script src="src/app/components/board/boardController.js"></script>
         <script src="src/app/components/notice/noticeController.js"></script>
+        <!-- endbuild -->
     </body>
 </html>
