@@ -4,9 +4,9 @@ $black: #000;
 $light-grey: #ecf0f1;
 
 // Stylesheets
-@import 'scss/animations';
-@import 'scss/generic';
-@import 'scss/buttons';
-@import 'scss/board';
-@import 'scss/info';
-@import 'scss/notice';
+@import "scss/animations";
+@import "scss/board";
+@import "scss/buttons";
+@import "scss/generic";
+@import "scss/info";
+@import "scss/notice";

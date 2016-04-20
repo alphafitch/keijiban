@@ -1,17 +1,14 @@
-header,
-footer {
-  color: $light-grey;
-  flex: none;
+header, footer {
+    color: $light-grey;
+    flex: none;
 }
-
 footer a {
-  border-bottom-color: $light-grey;
-  border-bottom-style: dotted;
-  border-bottom-width: 1px;
-  color: $light-grey;
-  text-decoration: none;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-bottom-color: $light-grey;
+    color: $light-grey;
+    text-decoration: none;
 }
-
 section {
-  flex: 1 0 auto;
+    flex: 1 0 auto;
 }

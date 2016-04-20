@@ -1,28 +1,21 @@
 .md-button.fixed {
-  position: fixed;
-
-  &.top {
-    top: 15px;
-  }
-
-  &.right {
-    right: 15px;
-  }
-
-  &.bottom {
-    bottom: 15px;
-  }
-
-  &.left {
-    left: 15px;
-  }
-
+    position: fixed;
+    &.top {
+        top: 15px;
+    }
+    &.right {
+        right: 15px;
+    }
+    &.bottom {
+        bottom: 15px;
+    }
+    &.left {
+        left: 15px;
+    }
 }
-
 .md-button i {
-  margin: 0 auto;
+    margin: 0 auto;
 }
-
 .md-button .fa-2x {
-  line-height: 2em;
+    line-height: 2em;
 }
