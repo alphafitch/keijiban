@@ -1,6 +1,7 @@
 // ---------- Plugins and paths ----------
 
 var gulp = require("gulp"),
+    autoprefixer = require("gulp-autoprefixer"),
     clean = require("gulp-clean"),
     zip = require("gulp-zip"),
     concat = require("gulp-concat"),
@@ -94,6 +95,7 @@ gulp.task("scripts", function() {
 gulp.task("styles", function() {
   return gulp.src(paths.appstyles)
     .pipe(sass().on("error", sass.logError)) // Log sass errors
+    .pipe(autoprefixer({browsers: ["last 10 versions", "> 10%", "ie >= 11"]}))
     .pipe(concat("app.min.css"))
     .pipe(cssnano())
     .pipe(gulp.dest("dist"));
@@ -153,6 +155,7 @@ gulp.task("styles-dev", function() {
   return gulp.src(paths.appstyles)
     .pipe(concat("app.scss"))
     .pipe(sass().on("error", sass.logError))
+    .pipe(autoprefixer({browsers: ["last 10 versions", "> 10%", "ie >= 11"]}))
     .pipe(rename("app.styles.css"))
     .pipe(gulp.dest("dist"));
 });
