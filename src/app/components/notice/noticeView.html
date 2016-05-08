@@ -1,14 +1,14 @@
 <div layout="column">
     <header ng-style="{ 'background-color':currentNotice.bgColour }">
         <div layout="row" layout-align="center">
-            <div class="flex" flex-sm="80" flex-gt-sm="60">
+            <div flex-xs="90" flex-sm="80" flex-gt-sm="60">
                 <h1 class="center md-display-3">{{currentNotice.header}}</h1>
                 <h3 class="center md-headline">{{currentNotice.description.short}}</h3>
             </div>
         </div>
     </header>
     <section layout="row" layout-align="center">
-        <div class="flex" flex-sm="80" flex-gt-sm="60">
+        <div flex-xs="90" flex-sm="80" flex-gt-sm="60">
             <description-module ng-if="modules.description.included"></description-module>
             <topics-module ng-if="modules.topics.included"></topics-module>
             <event-module ng-if="modules.event.included"></event-module>
