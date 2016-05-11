@@ -1,10 +1,8 @@
-section img {
-    max-width: 72px;
-    height: auto;
-}
-.info-text {
-    height: 80%;
-}
-.info-footer {
-    height: 10%;
-}
+ [md-component-id="infoMenu"] {
+    background-color: $wet-asphalt;
+    color: $white;
+
+    md-toolbar {
+        background-color: $wet-asphalt;
+    }
+ }
