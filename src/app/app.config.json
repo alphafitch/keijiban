@@ -1,311 +1,274 @@
 {
-   "settings":{
-      "editMode":false
-   },
-   "board":{
-      "title":"My awesome example noticeboard",
-      "description":"This awesome example board shows a bunch of notices that demonstrate the cool features that Keijiban has.",
-      "maxWidth":3,
-      "maxHeight":3,
-      "showDescription":true
-   },
-   "notices":{
-      "modules":{
-         "description":{
-            "included":true
-         },
-         "topics":{
-            "included":true,
-            "header":"Upcoming topics",
-            "allowSuggestions":true,
-            "suggestionText":"Got a suggestion for a topic? Get in touch with"
-         },
-         "event":{
-            "included":true,
-            "header":"Event Information",
-            "text":"The event will take place on {date} and it will run from {startTime} until {endTime}."
-         },
-         "venue":{
-            "included":true,
-            "text":"The venue will be {location}. We hope to see you there!"
-         },
-         "contact":{
-            "included":true,
-            "header":"Contact",
-            "label":"If you would like to join or find out more you can contact"
-         }
-      },
-      "data":[
-         {
-            "header":"Notice Title/Name etc.",
-            "bgColour":"#1abc9c",
-            "description":{
-               "short":"Short description, subject info, etc",
-               "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+    "settings": {
+        "editMode": false
+    },
+    "board": {
+        "title": "My awesome example noticeboard",
+        "description": "This awesome example board shows a bunch of notices that demonstrate the cool features that Keijiban has.",
+        "maxWidth": 3,
+        "maxHeight": 3,
+        "showDescription": true
+    },
+    "notices": {
+        "modules": {
+            "description": {
+                "included": true
             },
-            "topics":[
-               {
-                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-               },
-               {
-                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-               }
-            ],
-            "event":{
-               "date":"01/01/2015",
-               "startTime":"14:00",
-               "endTime":"15:00"
+            "topics": {
+                "included": true,
+                "header": "Upcoming topics",
+                "allowSuggestions": true,
+                "suggestionText": "Got a suggestion for a topic? Get in touch with"
             },
-            "venue":{
-               "location":"4 Privet Drive"
+            "event": {
+                "included": true,
+                "header": "Event Information",
+                "text": "The event will take place on {date} and it will run from {startTime} until {endTime}."
             },
-            "owner":{
-               "name":"Notice owner",
-               "email":"Notice.owner@keijiban.co.uk"
+            "venue": {
+                "included": true,
+                "text": "The venue will be {location}. We hope to see you there!"
+            },
+            "contact": {
+                "included": true,
+                "header": "Contact",
+                "label": "If you would like to join or find out more you can contact"
             }
-         },
-         {
-            "header":"Notice Title/Name etc.",
-            "bgColour":"#2ecc71",
-            "description":{
-               "short":"Short description, subject info, etc",
-               "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+        },
+        "data": [{
+            "header": "Notice Title/Name etc.",
+            "bgColour": "#1abc9c",
+            "description": {
+                "short": "Short description, subject info, etc",
+                "long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
             },
-            "topics":[
-               {
-                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-               },
-               {
-                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-               }
-            ],
-            "event":{
-               "date":"01/01/2015",
-               "startTime":"14:00",
-               "endTime":"15:00"
+            "topics": [{
+                "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+            }, {
+                "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+            }],
+            "event": {
+                "date": "01/01/2015",
+                "startTime": "14:00",
+                "endTime": "15:00"
             },
-            "venue":{
-               "location":"4 Privet Drive"
+            "venue": {
+                "location": "4 Privet Drive"
             },
-            "owner":{
-               "name":"Notice owner",
-               "email":"notice.owner@keijiban.co.uk"
+            "owner": {
+                "name": "Notice owner",
+                "email": "Notice.owner@keijiban.co.uk"
             }
-         },
-         {
-            "header":"Notice Title/Name etc.",
-            "bgColour":"#3498db",
-            "description":{
-               "short":"Short description, subject info, etc",
-               "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+        }, {
+            "header": "Notice Title/Name etc.",
+            "bgColour": "#2ecc71",
+            "description": {
+                "short": "Short description, subject info, etc",
+                "long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
             },
-            "topics":[
-               {
-                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-               },
-               {
-                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-               }
-            ],
-            "event":{
-               "date":"01/01/2015",
-               "startTime":"14:00",
-               "endTime":"15:00"
+            "topics": [{
+                "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+            }, {
+                "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+            }],
+            "event": {
+                "date": "01/01/2015",
+                "startTime": "14:00",
+                "endTime": "15:00"
             },
-            "venue":{
-               "location":"4 Privet Drive"
+            "venue": {
+                "location": "4 Privet Drive"
             },
-            "owner":{
-               "name":"Notice owner",
-               "email":"nNoticeotice.owner@keijiban.co.uk"
+            "owner": {
+                "name": "Notice owner",
+                "email": "notice.owner@keijiban.co.uk"
             }
-         },
-         {
-            "header":"Notice Title/Name etc.",
-            "bgColour":"#f1c40f",
-            "description":{
-               "short":"Short description, subject info, etc",
-               "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+        }, {
+            "header": "Notice Title/Name etc.",
+            "bgColour": "#3498db",
+            "description": {
+                "short": "Short description, subject info, etc",
+                "long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
             },
-            "topics":[
-               {
-                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-               },
-               {
-                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-               }
-            ],
-            "event":{
-               "date":"01/01/2015",
-               "startTime":"14:00",
-               "endTime":"15:00"
+            "topics": [{
+                "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+            }, {
+                "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+            }],
+            "event": {
+                "date": "01/01/2015",
+                "startTime": "14:00",
+                "endTime": "15:00"
             },
-            "venue":{
-               "location":"4 Privet Drive"
+            "venue": {
+                "location": "4 Privet Drive"
             },
-            "owner":{
-               "name":"Notice owner",
-               "email":"notice.owner@keijiban.co.uk"
+            "owner": {
+                "name": "Notice owner",
+                "email": "nNoticeotice.owner@keijiban.co.uk"
             }
-         },
-         {
-            "header":"Notice Title/Name etc.",
-            "bgColour":"#e67e22",
-            "description":{
-               "short":"Short description, subject info, etc",
-               "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+        }, {
+            "header": "Notice Title/Name etc.",
+            "bgColour": "#f1c40f",
+            "description": {
+                "short": "Short description, subject info, etc",
+                "long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
             },
-            "topics":[
-               {
-                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-               },
-               {
-                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-               }
-            ],
-            "event":{
-               "date":"01/01/2015",
-               "startTime":"14:00",
-               "endTime":"15:00"
+            "topics": [{
+                "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+            }, {
+                "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+            }],
+            "event": {
+                "date": "01/01/2015",
+                "startTime": "14:00",
+                "endTime": "15:00"
             },
-            "venue":{
-               "location":"4 Privet Drive"
+            "venue": {
+                "location": "4 Privet Drive"
             },
-            "owner":{
-               "name":"Notice owner",
-               "email":"notice.owner@keijiban.co.uk"
+            "owner": {
+                "name": "Notice owner",
+                "email": "notice.owner@keijiban.co.uk"
             }
-         },
-         {
-            "header":"Notice Title/Name etc.",
-            "bgColour":"#e74c3c",
-            "description":{
-               "short":"Short description, subject info, etc",
-               "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+        }, {
+            "header": "Notice Title/Name etc.",
+            "bgColour": "#e67e22",
+            "description": {
+                "short": "Short description, subject info, etc",
+                "long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
             },
-            "topics":[
-               {
-                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-               },
-               {
-                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-               }
-            ],
-            "event":{
-               "date":"01/01/2015",
-               "startTime":"14:00",
-               "endTime":"15:00"
+            "topics": [{
+                "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+            }, {
+                "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+            }],
+            "event": {
+                "date": "01/01/2015",
+                "startTime": "14:00",
+                "endTime": "15:00"
             },
-            "venue":{
-               "location":"4 Privet Drive"
+            "venue": {
+                "location": "4 Privet Drive"
             },
-            "owner":{
-               "name":"Notice owner",
-               "email":"notice.owner@keijiban.co.uk"
+            "owner": {
+                "name": "Notice owner",
+                "email": "notice.owner@keijiban.co.uk"
             }
-         },
-         {
-            "header":"Notice Title/Name etc.",
-            "bgColour":"#d2527f",
-            "description":{
-               "short":"Short description, subject info, etc",
-               "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+        }, {
+            "header": "Notice Title/Name etc.",
+            "bgColour": "#e74c3c",
+            "description": {
+                "short": "Short description, subject info, etc",
+                "long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
             },
-            "topics":[
-               {
-                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-               },
-               {
-                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-               }
-            ],
-            "event":{
-               "date":"01/01/2015",
-               "startTime":"14:00",
-               "endTime":"15:00"
+            "topics": [{
+                "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+            }, {
+                "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+            }],
+            "event": {
+                "date": "01/01/2015",
+                "startTime": "14:00",
+                "endTime": "15:00"
             },
-            "venue":{
-               "location":"4 Privet Drive"
+            "venue": {
+                "location": "4 Privet Drive"
             },
-            "owner":{
-               "name":"Notice owner",
-               "email":"notice.owner@keijiban.co.uk"
+            "owner": {
+                "name": "Notice owner",
+                "email": "notice.owner@keijiban.co.uk"
             }
-         },
-         {
-            "header":"Notice Title/Name etc.",
-            "bgColour":"#9b59b6",
-            "description":{
-               "short":"Short description, subject info, etc",
-               "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+        }, {
+            "header": "Notice Title/Name etc.",
+            "bgColour": "#d2527f",
+            "description": {
+                "short": "Short description, subject info, etc",
+                "long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
             },
-            "topics":[
-               {
-                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-               },
-               {
-                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-               }
-            ],
-            "event":{
-               "date":"01/01/2015",
-               "startTime":"14:00",
-               "endTime":"15:00"
+            "topics": [{
+                "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+            }, {
+                "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+            }],
+            "event": {
+                "date": "01/01/2015",
+                "startTime": "14:00",
+                "endTime": "15:00"
             },
-            "venue":{
-               "location":"4 Privet Drive"
+            "venue": {
+                "location": "4 Privet Drive"
             },
-            "owner":{
-               "name":"Notice owner",
-               "email":"notice.owner@keijiban.co.uk"
+            "owner": {
+                "name": "Notice owner",
+                "email": "notice.owner@keijiban.co.uk"
             }
-         },
-         {
-            "header":"Notice Title/Name etc.",
-            "bgColour":"#6c7a89",
-            "description":{
-               "short":"Short description, subject info, etc",
-               "long":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+        }, {
+            "header": "Notice Title/Name etc.",
+            "bgColour": "#9b59b6",
+            "description": {
+                "short": "Short description, subject info, etc",
+                "long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
             },
-            "topics":[
-               {
-                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-               },
-               {
-                  "header":"Lorem ipsum dolor sit amet, consectetur adipisicing elit",
-                  "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit"
-               }
-            ],
-            "event":{
-               "date":"01/01/2015",
-               "startTime":"14:00",
-               "endTime":"15:00"
+            "topics": [{
+                "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+            }, {
+                "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+            }],
+            "event": {
+                "date": "01/01/2015",
+                "startTime": "14:00",
+                "endTime": "15:00"
             },
-            "venue":{
-               "location":"4 Privet Drive"
+            "venue": {
+                "location": "4 Privet Drive"
             },
-            "owner":{
-               "name":"Notice owner",
-               "email":"notice.owner@keijiban.co.uk"
+            "owner": {
+                "name": "Notice owner",
+                "email": "notice.owner@keijiban.co.uk"
             }
-         }
-      ]
-   }
+        }, {
+            "header": "Notice Title/Name etc.",
+            "bgColour": "#6c7a89",
+            "description": {
+                "short": "Short description, subject info, etc",
+                "long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti repellendus tempora qui incidunt aliquam, porro cum quasi, iusto quia cumque atque distinctio enim, sequi nostrum commodi, amet? Incidunt, asperiores ipsa."
+            },
+            "topics": [{
+                "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+            }, {
+                "header": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+            }],
+            "event": {
+                "date": "01/01/2015",
+                "startTime": "14:00",
+                "endTime": "15:00"
+            },
+            "venue": {
+                "location": "4 Privet Drive"
+            },
+            "owner": {
+                "name": "Notice owner",
+                "email": "notice.owner@keijiban.co.uk"
+            }
+        }]
+    }
 }
