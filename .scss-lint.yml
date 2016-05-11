@@ -6,14 +6,12 @@ linters:
   Indentation:
     enabled: true
     allow_non_nested_indentation: false
-    character: space # or 'tab'
+    character: space
     width: 4
   StringQuotes:
     enabled: true
     style: double_quotes
   SingleLinePerSelector:
-    enabled: false
-  EmptyLineBetweenBlocks:
     enabled: false
   PropertySortOrder:
     enabled: false

@@ -1,30 +1,37 @@
 .center {
     text-align: center;
 }
+
 .flex-center {
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
+
 main {
     height: 100%;
 }
+
 md-sidenav {
     bottom: auto;
     min-width: 250px;
     max-width: none;
     width: 50%;
 }
+
 md-backdrop {
     position: fixed;
 }
+
 .full-height {
     bottom: 0;
 }
+
 .full-width {
     width: 100%;
 }
+
 .text-right {
     text-align: right;
 }

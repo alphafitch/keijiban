@@ -2,6 +2,7 @@ header, footer {
     color: $light-grey;
     flex: none;
 }
+
 footer a {
     border-bottom-width: 1px;
     border-bottom-style: dotted;
@@ -9,6 +10,7 @@ footer a {
     color: $light-grey;
     text-decoration: none;
 }
+
 section {
     flex: 1 0 auto;
 }
