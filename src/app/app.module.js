@@ -4,9 +4,11 @@ var keijiban = angular.module("keijiban", ["ngMaterial", "ngRoute"]);
 keijiban.config(function($mdThemingProvider) {
     $mdThemingProvider.theme("default")
         .primaryPalette("blue-grey", {
-            "default": "800" // by default use shade 900 from the colour palette
+            "default": "800"
         })
-        .accentPalette("pink");
+        .accentPalette("deep-orange", {
+            "default": "400"
+        });
 });
 
 // Improving the performance by removing debug code
