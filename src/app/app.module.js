@@ -3,8 +3,8 @@ var keijiban = angular.module("keijiban", ["ngMaterial", "ngRoute"]);
 // Custom theme for Keijiban
 keijiban.config(function($mdThemingProvider) {
     $mdThemingProvider.theme("default")
-        .primaryPalette("teal", {
-            "default": "900" // by default use shade 900 from the colour palette
+        .primaryPalette("blue-grey", {
+            "default": "800" // by default use shade 900 from the colour palette
         })
         .accentPalette("pink");
 });
