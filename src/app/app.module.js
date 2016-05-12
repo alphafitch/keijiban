@@ -11,7 +11,7 @@ keijiban.config(function($mdThemingProvider) {
 
 // Improving the performance by removing debug code
 // See more: https://medium.com/swlh/improving-angular-performance-with-1-line-of-code-a1fb814a6476#.klmlqiuwa
-keijiban.config(['$compileProvider', function ($compileProvider) {
+keijiban.config(["$compileProvider", function ($compileProvider) {
   $compileProvider.debugInfoEnabled(false);
 }]);
 
