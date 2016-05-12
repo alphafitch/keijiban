@@ -1,6 +1,6 @@
 {
     "settings": {
-        "editMode": false
+        "editMode": true
     },
     "board": {
         "title": "My awesome example noticeboard",

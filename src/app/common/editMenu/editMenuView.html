@@ -11,13 +11,10 @@
         <section layout="row" flex>
             <md-sidenav class="md-sidenav-right md-whiteframe-z2" md-component-id="editMenu">
 
-                <md-toolbar layout="row" ng-style="{ 'background-color':currentNotice.bgColour }">
+                <md-toolbar layout="row" layout-align="start">
                     <md-button flex="10" class="md-toolbar-tools" ng-click="toggleEditMenu()" aria-label="Close edit menu">
                         <i class="fa fa-times"></i>
                     </md-button>
-                    <div flex="90" class="md-toolbar-tools">
-                        <h1 class="text-right full-width">Edit</h1>
-                    </div>
                 </md-toolbar>
 
                 <form ng-controller="editMenuController" layout-padding>

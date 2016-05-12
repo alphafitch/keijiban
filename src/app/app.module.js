@@ -1,5 +1,14 @@
 var keijiban = angular.module("keijiban", ["ngMaterial", "ngRoute"]);
 
+// Theme
+keijiban.config(function($mdThemingProvider) {
+    $mdThemingProvider.theme("default")
+        .primaryPalette("teal", {
+            'default': '900', // by default use shade 900 from the colour palette
+        })
+        .accentPalette("pink");
+});
+
 // Buttons for navigation and showing extra menus
 
 keijiban.directive("boardButton", function() {
