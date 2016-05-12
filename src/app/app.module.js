@@ -9,8 +9,13 @@ keijiban.config(function($mdThemingProvider) {
         .accentPalette("pink");
 });
 
-// Buttons for navigation and showing extra menus
+// Improving the performance by removing debug code
+// See more: https://medium.com/swlh/improving-angular-performance-with-1-line-of-code-a1fb814a6476#.klmlqiuwa
+keijiban.config(['$compileProvider', function ($compileProvider) {
+  $compileProvider.debugInfoEnabled(false);
+}]);
 
+// Buttons for navigation and showing extra menus
 keijiban.directive("boardButton", function() {
     return {
         templateUrl: "src/app/common/boardButton/boardButtonView.html",
@@ -33,7 +38,6 @@ keijiban.directive("editMenu", function() {
 });
 
 // Modules which are reusable building blocks for notices
-
 keijiban.directive("contactModule", function() {
     return {
         templateUrl: "src/app/common/noticeModules/contact/contactView.html"
@@ -65,7 +69,6 @@ keijiban.directive("venueModule", function() {
 });
 
 // Filters for useful reusable behaviour
-
 keijiban.filter("stripHyphen", function() {
     return function(string) {
         return string.replace(/-/g, " ");
