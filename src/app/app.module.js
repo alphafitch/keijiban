@@ -1,6 +1,6 @@
 var keijiban = angular.module("keijiban", ["ngMaterial", "ngRoute"]);
 
-// Theme
+// Custom theme for Keijiban
 keijiban.config(function($mdThemingProvider) {
     $mdThemingProvider.theme("default")
         .primaryPalette("teal", {
