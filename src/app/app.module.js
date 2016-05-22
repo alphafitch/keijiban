@@ -13,8 +13,8 @@ keijiban.config(function($mdThemingProvider) {
 
 // Improving the performance by removing debug code
 // See more: https://medium.com/swlh/improving-angular-performance-with-1-line-of-code-a1fb814a6476#.klmlqiuwa
-keijiban.config(["$compileProvider", function ($compileProvider) {
-  $compileProvider.debugInfoEnabled(false);
+keijiban.config(["$compileProvider", function($compileProvider) {
+    $compileProvider.debugInfoEnabled(false);
 }]);
 
 // Buttons for navigation and showing extra menus
@@ -89,7 +89,7 @@ keijiban.filter("titleCase", function() {
 keijiban.filter("range", function() {
     return function(input, total) {
         total = parseInt(total);
-        for (var i=0; i<total; i++) {
+        for (var i = 0; i < total; i++) {
             input.push(i);
         }
         return input;
