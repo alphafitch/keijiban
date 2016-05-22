@@ -1,24 +1,19 @@
 <span ng-if="settings.editMode">
-
     <span ng-click="toggleEditMenu()" ng-hide="isOpen()" class="flex-center">
         <md-button class="md-raised md-primary" aria-label="Open edit menu">
             <span>Edit</span>
             <i class="fa fa-pencil-square-o"></i>
         </md-button>
     </span>
-
     <div layout="column" ng-cloak>
         <section layout="row" flex>
             <md-sidenav class="md-sidenav-right md-whiteframe-z2" md-component-id="editMenu">
-
                 <md-toolbar layout="row" layout-align="start">
                     <md-button flex="10" class="md-toolbar-tools" ng-click="toggleEditMenu()" aria-label="Close edit menu">
                         <i class="fa fa-times"></i>
                     </md-button>
                 </md-toolbar>
-
                 <form ng-controller="editMenuController" layout-padding>
-
                     <h3 class="md-headline">Basic Info</h3>
                     <md-input-container>
                         <label>Name</label>
@@ -28,7 +23,6 @@
                         <label>Primary colour</label>
                         <input ng-model="currentNotice.bgColour">
                     </md-input-container>
-
                     <span ng-if="modules.description.included">
                         <h3 class="md-headline">Board Description</h3>
                         <md-input-container>
@@ -40,7 +34,6 @@
                             <textarea ng-model="currentNotice.description.long" rows="4"></textarea>
                         </md-input-container>
                     </span>
-
                     <span ng-if="modules.topics.included">
                         <h3 class="md-headline">Topic Info</h3>
                         <span ng-repeat="topic in currentNotice.topics">
@@ -54,7 +47,6 @@
                             </md-input-container>
                         </span>
                     </span>
-
                     <span ng-if="modules.event.included">
                         <h3 class="md-headline">Event Info</h3>
                         <md-input-container>
@@ -70,7 +62,6 @@
                             <input ng-model="currentNotice.event.endTime">
                         </md-input-container>
                     </span>
-
                     <span ng-if="modules.venue.included">
                         <h3 class="md-headline">Venue Info</h3>
                         <md-input-container>
@@ -78,7 +69,6 @@
                             <input ng-model="currentNotice.venue.location">
                         </md-input-container>
                     </span>
-
                     <span ng-if="modules.contact.included">
                         <h3 class="md-headline">Contact Info</h3>
                         <md-input-container>
@@ -90,15 +80,11 @@
                             <input ng-model="currentNotice.owner.email">
                         </md-input-container>
                     </span>
-
                 </form>
-
                 <div class="flex-center">
                     <md-button ng-click="close()" class="md-raised md-accent">Save</md-button>
                 </div>
-
             </md-sidenav>
         </section>
     </div>
-
 </span>
