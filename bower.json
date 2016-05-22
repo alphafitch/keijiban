@@ -10,8 +10,8 @@
   "license": "MIT",
   "dependencies": {
     "angular": "^1.5.5",
-    "angular-material": "^1.0.7",
+    "angular-material": "^1.0.9",
     "angular-route": "^1.5.5",
-    "font-awesome": "^4.6.1"
+    "font-awesome": "^4.6.3"
   }
 }
