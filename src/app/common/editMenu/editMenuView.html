@@ -9,21 +9,23 @@
         <section layout="row" flex>
             <md-sidenav class="md-sidenav-right md-whiteframe-z2" md-component-id="editMenu">
                 <md-toolbar layout="row" layout-align="start">
-                    <md-button flex="10" class="md-toolbar-tools" ng-click="toggleEditMenu()" aria-label="Close edit menu">
+                    <md-button flex="0" class="md-toolbar-tools" ng-click="toggleEditMenu()" aria-label="Close edit menu">
                         <i class="fa fa-times"></i>
                     </md-button>
                 </md-toolbar>
                 <form ng-controller="editMenuController" layout-padding>
-                    <h3 class="md-headline">Basic Info</h3>
-                    <md-input-container>
-                        <label>Name</label>
-                        <input ng-model="currentNotice.header">
-                    </md-input-container>
-                    <md-input-container>
-                        <label>Primary colour</label>
-                        <input ng-model="currentNotice.bgColour">
-                    </md-input-container>
-                    <span ng-if="modules.description.included">
+                    <div>
+                        <h3 class="md-headline">Basic Info</h3>
+                        <md-input-container>
+                            <label>Name</label>
+                            <input ng-model="currentNotice.header">
+                        </md-input-container>
+                        <md-input-container>
+                            <label>Primary colour</label>
+                            <input ng-model="currentNotice.bgColour">
+                        </md-input-container>
+                    </div>
+                    <div ng-if="modules.description.included">
                         <h3 class="md-headline">Board Description</h3>
                         <md-input-container>
                             <label>Short description</label>
@@ -33,10 +35,10 @@
                             <label>Long description</label>
                             <textarea ng-model="currentNotice.description.long" rows="4"></textarea>
                         </md-input-container>
-                    </span>
-                    <span ng-if="modules.topics.included">
+                    </div>
+                    <div ng-if="modules.topics.included">
                         <h3 class="md-headline">Topic Info</h3>
-                        <span ng-repeat="topic in currentNotice.topics">
+                        <div ng-repeat="topic in currentNotice.topics">
                             <md-input-container>
                                 <label>Topic Header</label>
                                 <input ng-model="topic.header">
@@ -45,9 +47,9 @@
                                 <label>Topic Description</label>
                                 <input ng-model="topic.description">
                             </md-input-container>
-                        </span>
-                    </span>
-                    <span ng-if="modules.event.included">
+                        </div>
+                    </div>
+                    <div ng-if="modules.event.included">
                         <h3 class="md-headline">Event Info</h3>
                         <md-input-container>
                             <label>Date</label>
@@ -61,15 +63,15 @@
                             <label>End Time</label>
                             <input ng-model="currentNotice.event.endTime">
                         </md-input-container>
-                    </span>
-                    <span ng-if="modules.venue.included">
+                    </div>
+                    <div ng-if="modules.venue.included">
                         <h3 class="md-headline">Venue Info</h3>
                         <md-input-container>
                             <label>Location</label>
                             <input ng-model="currentNotice.venue.location">
                         </md-input-container>
-                    </span>
-                    <span ng-if="modules.contact.included">
+                    </div>
+                    <div ng-if="modules.contact.included">
                         <h3 class="md-headline">Contact Info</h3>
                         <md-input-container>
                             <label>Contact Name</label>
@@ -79,7 +81,7 @@
                             <label>Contact Email</label>
                             <input ng-model="currentNotice.owner.email">
                         </md-input-container>
-                    </span>
+                    </div>
                 </form>
                 <div class="flex-center">
                     <md-button ng-click="close()" class="md-raised md-accent">Save</md-button>
