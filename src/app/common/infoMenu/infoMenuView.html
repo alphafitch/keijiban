@@ -3,24 +3,23 @@
         <i class="fa fa-2x fa-info"></i>
     </md-button>
 </div>
-
 <div layout="column" ng-cloak>
     <section flex layout="row">
         <md-sidenav class="md-sidenav-left md-whiteframe-z2 full-height" md-component-id="infoMenu">
-
             <md-toolbar layout="row" layout-align="end">
                 <md-button flex="10" class="md-toolbar-tools" ng-click="toggleInfoMenu()" aria-label="Close info section">
                     <i class="fa fa-times"></i>
                 </md-button>
             </md-toolbar>
-
             <div layout="row" class="info-text" layout-align="center" layout-wrap>
                 <div flex="75" class="center">
                     <h1>{{board.title}}</h1>
                     <p>{{board.description}}</p>
                 </div>
             </div>
-
+            <div layout="row" layout-align="center">
+                <md-switch ng-model="settings.editMode" aria-label="Edit mode switch">Edit mode</md-switch>
+            </div>
             <div layout="row" layout-align="center end">
                 <img src="src/assets/images/logo.png">
             </div>
@@ -30,7 +29,6 @@
                     <span>{{bower.version}}</span>
                 </md-button>
             </div>
-
         </md-sidenav>
     </section>
 </div>
