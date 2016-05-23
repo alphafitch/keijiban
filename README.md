@@ -1,5 +1,7 @@
 # Keijiban - The Digital Noticeboard
 
+![alt text](https://github.com/alphafitch/keijiban/blob/master/src/assets/images/favicons/favicon-96x96.png "Keijiban icon")
+
 A noticeboard, except it's digital.
 
  * Build your board to display all your notices in a custom sized list.
