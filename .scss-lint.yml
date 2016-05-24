@@ -15,4 +15,7 @@ linters:
     enabled: false
   PropertySortOrder:
     enabled: false
+  SelectorDepth:
+    enabled: true
+    max_depth: 4
 
