@@ -1,6 +1,4 @@
-# Keijiban - The Digital Noticeboard
-
-![alt text](https://github.com/alphafitch/keijiban/blob/master/src/assets/images/favicons/favicon-96x96.png "Keijiban icon")
+# Keijiban ![alt text](https://github.com/alphafitch/keijiban/blob/develop/src/assets/images/favicons/android-chrome-48x48.png "Keijiban icon")
 
 A noticeboard, except it's digital.
 
@@ -16,13 +14,14 @@ A noticeboard, except it's digital.
 
 ## Setup
 
-1. Download the latest version.
-2. Update bower components `bower install`
-3. Run on apache server.
+1. Download the [latest release version](https://github.com/alphafitch/keijiban/releases).
+3. Unzip on your desired server.
+3. Update app dependencies with `bower install`, `npm install`.
+4. Enjoy.
 
 ## Contributing
 
-1. Fork it!
+1. Fork it the repo.
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
